@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Genera los .zip instalables de los complementos en la carpeta dist/.
+"""Genera los .zip instalables de los complementos en la carpeta dist/
+y actualiza los números de versión en los README (el principal y el de
+cada complemento) a partir de __init__.py.
 
 Uso:
     python3 build.py                 # todos los complementos
@@ -36,6 +38,49 @@ def leer_datos(carpeta):
     return nombre, version
 
 
+def leer_minimo(carpeta):
+    s = open(os.path.join(RAIZ, carpeta, '__init__.py'), encoding='utf-8').read()
+    m = re.search(r"minimum_calibre_version\s*=\s*\(([\d,\s]+)\)", s)
+    return '.'.join(x.strip() for x in m.group(1).split(',') if x.strip()) if m else None
+
+
+def reemplazar(ruta, cambios):
+    """Aplica una lista de (patrón, reemplazo) y guarda solo si algo cambió."""
+    if not os.path.exists(ruta):
+        return False
+    original = open(ruta, encoding='utf-8').read()
+    texto = original
+    for patron, nuevo in cambios:
+        texto = re.sub(patron, nuevo, texto)
+    if texto != original:
+        with open(ruta, 'w', encoding='utf-8', newline='\n') as f:
+            f.write(texto)
+        return True
+    return False
+
+
+def actualizar_readmes(carpeta):
+    nombre, version = leer_datos(carpeta)
+    minimo = leer_minimo(carpeta)
+    n = re.escape(nombre)
+    cambios = [
+        (r'(\*\*Versión / Version:\*\* )[\d.]+', r'\g<1>' + version),
+        (r'(`' + n + r'` v)[\d.]+', r'\g<1>' + version),
+    ]
+    if minimo:
+        cambios.append((r'(\*\*calibre mínimo / minimum calibre:\*\* )[\d.]+',
+                        r'\g<1>' + minimo))
+    hechos = []
+    if reemplazar(os.path.join(RAIZ, carpeta, 'README.md'), cambios):
+        hechos.append(carpeta + '/README.md')
+    fila = [(r'(\| \[' + n + r'\]\(' + re.escape(carpeta) + r'/README\.md\) \| )[\d.]+',
+             r'\g<1>' + version)]
+    if reemplazar(os.path.join(RAIZ, 'README.md'), fila):
+        hechos.append('README.md')
+    for h in hechos:
+        print(f'    versión {version} actualizada en {h}')
+
+
 def empaquetar(carpeta):
     nombre, version = leer_datos(carpeta)
     ascii_ = unicodedata.normalize('NFKD', nombre).encode('ascii', 'ignore').decode()
@@ -63,6 +108,7 @@ def main():
     os.makedirs(DIST, exist_ok=True)
     print('Generando complementos:')
     for p in pedidos:
+        actualizar_readmes(p.strip('/'))
         empaquetar(p.strip('/'))
 
 
