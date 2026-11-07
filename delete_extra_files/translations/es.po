@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:19-0300\n"
+"PO-Revision-Date: 2026-08-30 16:30-0300\n"
+"Last-Translator: Dunhill <walter.paterno@gmail.com>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: __init__.py:12
+msgid ""
+"Selectively and securely deletes extra data folders (extra files) from the "
+"entire Calibre library."
+msgstr ""
+"Elimina carpetas de datos extra (archivos extra) de toda la biblioteca de "
+"calibre de forma selectiva y segura."
+
+#: action.py:14
+msgid "Delete Extra Files"
+msgstr "Eliminar Archivos Extra"
+
+#: action.py:14
+msgid "Deletes extra data folders across the entire library"
+msgstr "Borra carpetas de datos extra en toda la biblioteca"
+
+#: ui.py:42
+msgid "Selective Extra Files Cleaner - Calibre"
+msgstr "Limpiador Selectivo de Archivos Extra - Calibre"
+
+#: ui.py:47
+msgid "Scanning library for extra files..."
+msgstr "Escaneando la biblioteca en busca de archivos extra..."
+
+#: ui.py:55
+msgid "Select all"
+msgstr "Seleccionar todo"
+
+#: ui.py:59
+msgid "Deselect all"
+msgstr "Deseleccionar todo"
+
+#: ui.py:67
+msgid "Delete selected extra files"
+msgstr "Eliminar archivos extra seleccionados"
+
+#: ui.py:102
+msgid "Case conflict"
+msgstr "Conflicto de mayúsculas y minúsculas"
+
+#: ui.py:114
+#, python-brace-format
+msgid "ID: {0} - {1} ({2} files: {3})"
+msgstr "ID: {0} - {1} ({2} archivos: {3})"
+
+#: ui.py:129
+#, python-brace-format
+msgid "Found {0} books with extra files:"
+msgstr "Se encontraron {0} libros con archivos extra:"
+
+#: ui.py:134
+msgid "Great! No extra files found in the library."
+msgstr "¡Excelente! No se encontraron archivos extra en la biblioteca."
+
+#: ui.py:154
+msgid "Warning"
+msgstr "Atención"
+
+#: ui.py:154
+msgid "No books selected for cleaning."
+msgstr "No hay ningún libro seleccionado para limpiar."
+
+#: ui.py:159
+msgid "Confirm deletion"
+msgstr "Confirmar eliminación"
+
+#: ui.py:160
+#, python-brace-format
+msgid ""
+"Are you sure you want to permanently delete the extra files from the {0} "
+"selected books?"
+msgstr ""
+"¿Estás seguro de eliminar permanentemente los archivos extra de los {0} "
+"libros seleccionados?"
+
+#: ui.py:240
+msgid "Process completed"
+msgstr "Proceso completado"
+
+#: ui.py:240
+#, python-brace-format
+msgid "Successfully cleaned extra files from {0} books."
+msgstr "Se limpiaron exitosamente los archivos extra de {0} libros."
+
+#: action.py:33 support.py:34
+#, python-brace-format
+msgid "About {0}"
+msgstr "Acerca de {0}"
+
+#: support.py:63
+#, python-brace-format
+msgid "Version: {0}"
+msgstr "Versión: {0}"
+
+#: support.py:66
+msgid "MobileRead forum"
+msgstr "Foro de MobileRead"
+
+#: support.py:67
+msgid "Support development"
+msgstr "Apoyar el desarrollo"
+
+#: support.py:80
+msgid "Scan the code with your phone to donate via Ko-fi."
+msgstr "Escanee el código con su teléfono para donar por Ko-fi."

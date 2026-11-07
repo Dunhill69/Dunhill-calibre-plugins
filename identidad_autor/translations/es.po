@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Identidad Autor 1.1.0\n"
+"Last-Translator: Dunhill <walter.paterno@gmail.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, python-brace-format
+msgid "About {0}"
+msgstr "Acerca de {0}"
+
+#, python-brace-format
+msgid "Version: {0}"
+msgstr "Versión: {0}"
+
+msgid "MobileRead forum"
+msgstr "Foro de MobileRead"
+
+msgid "Support development"
+msgstr "Apoyar el desarrollo"
+
+msgid "Scan the code with your phone to donate via Ko-fi."
+msgstr "Escanee el código con su teléfono para donar por Ko-fi."

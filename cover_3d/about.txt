@@ -1,0 +1,17 @@
+3D Cover
+
+Turns flat book covers into 3D hardcover books, with spine, page edges and shadow.
+
+Author: Dunhill
+Inspired by the "Create Hardcover" plugin by sornay.
+
+Features:
+- Realistic 3D hardcover with spine, page edges and drop shadow
+- Background filled with the cover grid color (calibre stores covers as JPEG, without transparency)
+- Selectable output size: Normal, Large, Extra large or Original
+- RTL support for Arabic, Hebrew, Persian books
+- Batch processing with progress bars
+- Save and restore original covers
+- Keyboard navigation
+
+Donate: https://ko-fi.com/dunhill69 - https://paypal.me/Dunhill69

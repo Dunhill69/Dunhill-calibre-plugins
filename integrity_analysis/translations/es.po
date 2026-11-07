@@ -1,0 +1,545 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Integrity Analysis 1.6.1\n"
+"Language: es\n"
+"Last-Translator: Dunhill <walter.paterno@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: __init__.py:12
+msgid "Performs integrity checks and analysis on your Calibre library and components."
+msgstr "Realiza comprobaciones de integridad y análisis en tu biblioteca y componentes de calibre."
+
+#: action.py:26
+msgid "integrity_issue"
+msgstr "problema_integridad"
+
+#: action.py:103
+msgid "Integrity Analysis"
+msgstr "Análisis de integridad"
+
+#: action.py:104
+msgid "Run integrity analysis on library and components"
+msgstr "Realizar un análisis de integridad en la biblioteca y los componentes"
+
+#: action.py:68
+msgid "Add books to exclusions"
+msgstr "Añadir libros a las exclusiones"
+
+#: action.py:122
+msgid "Run Integrity Analysis"
+msgstr "Ejecutar Análisis de Integridad"
+
+#: action.py:123
+msgid "Scans every book in the current library: format files, book folder, metadata.opf and cover.jpg. Books and checks listed in the exclusions file are skipped."
+msgstr "Revisa todos los libros de la biblioteca actual: archivos de formato, carpeta del libro, metadata.opf y cover.jpg. Se omiten los libros y comprobaciones que figuran en el archivo de exclusiones."
+
+#: action.py:129
+msgid "View Last Integrity Report"
+msgstr "Ver el último informe de integridad"
+
+#: action.py:130
+msgid "Opens the report of the last scan again, with the issues grouped by book. Available after running an analysis."
+msgstr "Vuelve a abrir el informe del último análisis, con los problemas agrupados por libro. Disponible después de ejecutar un análisis."
+
+#: action.py:133
+msgid "Export Report to .txt..."
+msgstr "Exportar informe a .txt..."
+
+#: action.py:134
+msgid "Saves the last report as a text file so you can keep it or review it later."
+msgstr "Guarda el último informe en un archivo de texto para conservarlo o revisarlo más tarde."
+
+#: action.py:139
+msgid "Mark problematic books"
+msgstr "Marcar libros problemáticos"
+
+#: action.py:140
+msgid "Marks in calibre every book that had an issue in the last report and filters the library to show only them. Other marks you have are kept."
+msgstr "Marca en calibre todos los libros que tuvieron algún problema en el último informe y filtra la biblioteca para mostrar solo esos. Las demás marcas que tengas se conservan."
+
+#: action.py:142
+msgid "Show marked problematic books"
+msgstr "Mostrar libros problemáticos marcados"
+
+#: action.py:143
+msgid "Filters the library to show only the books marked by this plugin. To see all books again, clear the search bar."
+msgstr "Filtra la biblioteca para mostrar solo los libros marcados por este complemento. Para volver a ver todos los libros, borra la barra de búsqueda."
+
+#: action.py:145
+msgid "Clear integrity marks"
+msgstr "Quitar marcas de integridad"
+
+#: action.py:146
+msgid "Removes the marks added by this plugin. Marks made by you or other plugins are not touched."
+msgstr "Quita las marcas añadidas por este complemento. No toca las marcas hechas por ti o por otros complementos."
+
+#: action.py:151
+msgid "Exclusions"
+msgstr "Exclusiones"
+
+#: action.py:153
+msgid "Exclude selected books..."
+msgstr "Excluir libros seleccionados..."
+
+#: action.py:154
+msgid "Select one or more books in the library first. A window lets you choose which checks to ignore for them (for example, \"Book without formats\" for empty records) and add a note."
+msgstr "Primero selecciona uno o más libros en la biblioteca. Se abre una ventana para elegir qué comprobaciones ignorar en ellos (por ejemplo, \"Libro sin formatos\" para los registros vacíos) y añadir una nota."
+
+#: action.py:158
+msgid "Exclude every issue in the last report..."
+msgstr "Excluir todos los problemas del último informe..."
+
+#: action.py:159
+msgid "Adds all the books of the last report to the exclusions file, ignoring only the checks each one failed. Use it once you have reviewed the report and the remaining issues are intentional."
+msgstr "Añade todos los libros del último informe al archivo de exclusiones, ignorando solo las comprobaciones que falló cada uno. Úsalo cuando hayas revisado el informe y los problemas que quedan sean intencionales."
+
+#: action.py:162
+msgid "Remove selected books from exclusions"
+msgstr "Quitar libros seleccionados de las exclusiones"
+
+#: action.py:163
+msgid "Select books in the library first. They are removed from the exclusions file and will be checked again in the next scan."
+msgstr "Primero selecciona libros en la biblioteca. Se quitan del archivo de exclusiones y se volverán a comprobar en el próximo análisis."
+
+#: action.py:166
+msgid "Show excluded books in the library"
+msgstr "Mostrar libros excluidos en la biblioteca"
+
+#: action.py:167
+msgid "Filters the library to show the books that are excluded (by uuid, by id or by tag)."
+msgstr "Filtra la biblioteca para mostrar los libros excluidos (por uuid, por id o por etiqueta)."
+
+#: action.py:169
+msgid "Open exclusions file (.json)"
+msgstr "Abrir archivo de exclusiones (.json)"
+
+#: action.py:170
+msgid "Opens the JSON file with your default editor so you can review it or edit it by hand. It is created empty if it does not exist yet."
+msgstr "Abre el archivo JSON con tu editor predeterminado para revisarlo o editarlo a mano. Si todavía no existe, se crea vacío."
+
+#: action.py:172
+msgid "Import exclusions from .json..."
+msgstr "Importar exclusiones desde .json..."
+
+#: action.py:173
+msgid "Merges the exclusions of another JSON file (for example, a backup) into the current file. Nothing already present is deleted."
+msgstr "Combina las exclusiones de otro archivo JSON (por ejemplo, una copia de seguridad) con el archivo actual. No se borra nada de lo que ya hay."
+
+#: action.py:175
+msgid "Export exclusions to .json..."
+msgstr "Exportar exclusiones a .json..."
+
+#: action.py:176
+msgid "Saves a copy of the exclusions file wherever you choose, as a backup or to use it on another computer."
+msgstr "Guarda una copia del archivo de exclusiones donde elijas, como respaldo o para usarlo en otro equipo."
+
+#: action.py:180
+msgid "Configure Plugin..."
+msgstr "Configurar complemento..."
+
+#: action.py:181
+msgid "Choose which checks to run, whether to mark books automatically and where the exclusions file is stored."
+msgstr "Elige qué comprobaciones hacer, si se marcan los libros automáticamente y dónde se guarda el archivo de exclusiones."
+
+#: action.py:183
+msgid "Help"
+msgstr "Ayuda"
+
+#: action.py:184
+msgid "Explains what each option of this menu does and the recommended workflow."
+msgstr "Explica qué hace cada opción de este menú y el flujo de trabajo recomendado."
+
+#: action.py:268
+msgid "Analyzing library..."
+msgstr "Analizando la biblioteca..."
+
+#: action.py:268
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: action.py:357
+msgid "CALIBRE LIBRARY INTEGRITY ANALYSIS REPORT"
+msgstr "INFORME DE ANÁLISIS DE INTEGRIDAD DE LA BIBLIOTECA CALIBRE"
+
+#: action.py:536
+msgid "Import exclusions"
+msgstr "Importar exclusiones"
+
+#: action.py:563
+msgid "Export exclusions"
+msgstr "Exportar exclusiones"
+
+#: action.py:574
+msgid "Export Successful"
+msgstr "Exportación exitosa"
+
+#: action.py:574
+msgid "Report saved successfully"
+msgstr "Informe guardado con éxito"
+
+#: action.py:582
+msgid "Integrity Analysis - Last Report"
+msgstr "Análisis de integridad - Último informe"
+
+#: action.py:605
+msgid "Export Integrity Report"
+msgstr "Exportar informe de integridad"
+
+#: action.py:624
+msgid "Integrity Analysis - Help"
+msgstr "Análisis de integridad - Ayuda"
+
+#: action.py:71
+msgid "Ignore these checks for the selected books:"
+msgstr "Ignorar estas comprobaciones para los libros seleccionados:"
+
+#: action.py:80
+msgid "Note (optional):"
+msgstr "Nota (opcional):"
+
+#: action.py:240
+msgid "The library is empty"
+msgstr "La biblioteca está vacía"
+
+#: action.py:282
+msgid "(untitled)"
+msgstr "(sin título)"
+
+#: action.py:359
+msgid "ANALYSIS CANCELLED: the report is partial."
+msgstr "ANÁLISIS CANCELADO: el informe es parcial."
+
+#: action.py:368
+msgid "Exclusions: not applied"
+msgstr "Exclusiones: no aplicadas"
+
+#: action.py:395
+msgid "Analysis completed"
+msgstr "Análisis completado"
+
+#: action.py:437
+msgid "No books selected"
+msgstr "No hay libros seleccionados"
+
+#: action.py:480
+msgid "Added from report"
+msgstr "Añadido desde el informe"
+
+#: action.py:519
+msgid "No book in this library is excluded."
+msgstr "Ningún libro de esta biblioteca está excluido."
+
+#: action.py:585
+msgid "Summary of the latest integrity scan:"
+msgstr "Resumen del último análisis de integridad:"
+
+#: action.py:228
+msgid "Could not save the exclusions file"
+msgstr "No se pudo guardar el archivo de exclusiones"
+
+#: action.py:241
+msgid "Please add some books to your library before running the integrity analysis."
+msgstr "Por favor, añade algunos libros a tu biblioteca antes de ejecutar el análisis de integridad."
+
+#: action.py:360
+#, python-brace-format
+msgid "Total books checked: {}"
+msgstr "Total de libros verificados: {}"
+
+#: action.py:361
+#, python-brace-format
+msgid "Books with issues: {}"
+msgstr "Libros con problemas: {}"
+
+#: action.py:362
+#, python-brace-format
+msgid "Issues found: {}"
+msgstr "Problemas encontrados: {}"
+
+#: action.py:383
+msgid "Your library is healthy."
+msgstr "Tu biblioteca está correcta."
+
+#: action.py:502
+msgid "None of the selected books were excluded."
+msgstr "Ninguno de los libros seleccionados estaba excluido."
+
+#: action.py:545
+msgid "Could not read the exclusions file"
+msgstr "No se pudo leer el archivo de exclusiones"
+
+#: action.py:572
+msgid "Export Error"
+msgstr "Error de exportación"
+
+#: action.py:572
+msgid "Could not save the file"
+msgstr "No se pudo guardar el archivo"
+
+#: action.py:70
+#, python-brace-format
+msgid "Books to exclude: {0}"
+msgstr "Libros a excluir: {0}"
+
+#: action.py:258
+msgid "Continue the analysis without exclusions?"
+msgstr "¿Continuar el análisis sin exclusiones?"
+
+#: action.py:364
+#, python-brace-format
+msgid "Books fully excluded: {}"
+msgstr "Libros excluidos por completo: {}"
+
+#: action.py:365
+#, python-brace-format
+msgid "Issues ignored by exclusions: {}"
+msgstr "Problemas ignorados por exclusiones: {}"
+
+#: action.py:366
+#, python-brace-format
+msgid "Exclusions file: {}"
+msgstr "Archivo de exclusiones: {}"
+
+#: action.py:380
+#, python-brace-format
+msgid "Tip: problematic books can be found with the search: {0}"
+msgstr "Consejo: puedes ver los libros problemáticos con la búsqueda: {0}"
+
+#: action.py:383
+msgid "No integrity issues detected."
+msgstr "No se detectaron problemas de integridad."
+
+#: action.py:422
+#, python-brace-format
+msgid "{0} problematic books were marked."
+msgstr "Se marcaron {0} libros problemáticos."
+
+#: action.py:456
+#, python-brace-format
+msgid "Exclusions saved: {0} new, {1} updated."
+msgstr "Exclusiones guardadas: {0} nuevas, {1} actualizadas."
+
+#: action.py:471
+#, python-brace-format
+msgid "Add the {0} books of the last report to the exclusions file? Only the checks each book failed will be ignored in future scans."
+msgstr "¿Añadir los {0} libros del último informe al archivo de exclusiones? En los próximos análisis solo se ignorarán las comprobaciones que falló cada libro."
+
+#: action.py:499
+#, python-brace-format
+msgid "{0} books removed from the exclusions."
+msgstr "Se quitaron {0} libros de las exclusiones."
+
+#: action.py:557
+#, python-brace-format
+msgid "{0} exclusions imported."
+msgstr "Se importaron {0} exclusiones."
+
+#: action.py:575
+#, python-brace-format
+msgid "The report has been saved to:\n{0}"
+msgstr "El archivo se guardó en:\n{0}"
+
+#: action.py:335
+msgid "The book has no folder path registered in the database"
+msgstr "El libro no tiene una ruta de carpeta registrada en la base de datos"
+
+#: action.py:396
+#, python-brace-format
+msgid "Library analyzed successfully. Total books checked: {0}. Use the drop-down menu to view or export the report."
+msgstr "Biblioteca analizada con éxito. Total de libros verificados: {0}. Usa el menú desplegable para ver o exportar el informe."
+
+#: action.py:303
+msgid "No formats registered in database for this book"
+msgstr "No hay formatos registrados en la base de datos para este libro"
+
+#: action.py:337
+#, python-brace-format
+msgid "I/O Error accessing disk/folder: {0}"
+msgstr "Error de E/S al acceder al disco/carpeta: {0}"
+
+#: action.py:340
+#, python-brace-format
+msgid "Unexpected error while checking this book: {0}"
+msgstr "Error inesperado al comprobar este libro: {0}"
+
+#: action.py:318
+#, python-brace-format
+msgid "The book directory does not exist on disk: {0}"
+msgstr "El directorio del libro no existe en el disco: {0}"
+
+#: action.py:323
+msgid "Missing metadata.opf file in the book folder"
+msgstr "Falta el archivo metadata.opf en la carpeta del libro"
+
+#: action.py:325
+msgid "Corrupted or empty metadata.opf file (0 bytes)"
+msgstr "Archivo metadata.opf dañado o vacío (0 bytes)"
+
+#: action.py:331
+msgid "Missing cover.jpg file (calibre says the book has a cover)"
+msgstr "Falta el archivo cover.jpg (calibre indica que el libro tiene portada)"
+
+#: action.py:308
+#, python-brace-format
+msgid "Missing physical file for format: {0}"
+msgstr "Falta el archivo físico para el formato: {0}"
+
+#: action.py:333
+msgid "Missing cover.jpg file in the book folder"
+msgstr "Falta el archivo cover.jpg en la carpeta del libro"
+
+#: action.py:310
+#, python-brace-format
+msgid "Empty file (0 bytes) for format: {0}"
+msgstr "Archivo vacío (0 bytes) para el formato: {0}"
+
+#: config.py:41
+msgid "Library Integrity Settings"
+msgstr "Configuración de integridad de la biblioteca"
+
+#: config.py:44
+msgid "Check for missing or empty book formats (EPUB, PDF, etc.)"
+msgstr "Comprobar si faltan formatos de libro o si están vacíos (EPUB, PDF, etc.)"
+
+#: config.py:48
+msgid "Report books without any format (empty records)"
+msgstr "Informar de libros sin ningún formato (registros vacíos)"
+
+#: config.py:49
+msgid "Uncheck this if you keep metadata-only records on purpose."
+msgstr "Desmárcalo si guardas a propósito registros que solo tienen metadatos."
+
+#: config.py:53
+msgid "Check for missing cover.jpg files in book folders"
+msgstr "Comprobar si faltan archivos cover.jpg en las carpetas de los libros"
+
+#: config.py:57
+msgid "Only report a missing cover.jpg if calibre says the book has a cover"
+msgstr "Informar de la falta de cover.jpg solo si calibre indica que el libro tiene portada"
+
+#: config.py:61
+msgid "Check for missing or corrupted metadata.opf files"
+msgstr "Comprobar si faltan o están dañados los archivos metadata.opf"
+
+#: config.py:68
+msgid "After the scan"
+msgstr "Después del análisis"
+
+#: config.py:71
+msgid "Automatically show error logs and report summaries after scan"
+msgstr "Mostrar automáticamente registros de errores y resúmenes de informes después del análisis"
+
+#: config.py:75
+msgid "Automatically mark problematic books and show them in the library"
+msgstr "Marcar automáticamente los libros problemáticos y mostrarlos en la biblioteca"
+
+#: config.py:85
+msgid "Apply the exclusions file during the scan"
+msgstr "Aplicar el archivo de exclusiones durante el análisis"
+
+#: config.py:96
+msgid "Browse..."
+msgstr "Examinar..."
+
+#: config.py:106
+msgid "Choose exclusions file"
+msgstr "Elegir archivo de exclusiones"
+
+#: config.py:89
+msgid "Exclusions file (leave empty to use the default location):"
+msgstr "Archivo de exclusiones (déjalo vacío para usar la ubicación predeterminada):"
+
+#: exclusions.py:42
+msgid "All checks (skip the book entirely)"
+msgstr "Todas las comprobaciones (omitir el libro por completo)"
+
+#: exclusions.py:43
+msgid "Book without formats (empty record)"
+msgstr "Libro sin formatos (registro vacío)"
+
+#: exclusions.py:44
+msgid "Missing or empty format files"
+msgstr "Archivos de formato faltantes o vacíos"
+
+#: exclusions.py:45
+msgid "Missing book folder"
+msgstr "Carpeta del libro faltante"
+
+#: exclusions.py:46
+msgid "Missing or empty metadata.opf"
+msgstr "metadata.opf faltante o vacío"
+
+#: exclusions.py:47
+msgid "Missing cover.jpg"
+msgstr "cover.jpg faltante"
+
+#: exclusions.py:68
+#, python-brace-format
+msgid "The root of the JSON file must be an object {...}"
+msgstr "La raíz del archivo JSON debe ser un objeto {...}"
+
+#: exclusions.py:72
+msgid "\"excluded_tags\" must be a list"
+msgstr "\"excluded_tags\" debe ser una lista"
+
+#: exclusions.py:76
+msgid "\"books\" must be a list"
+msgstr "\"books\" debe ser una lista"
+
+#: exclusions.py:79
+#, python-brace-format
+msgid "Entry #{0} in \"books\" is not an object"
+msgstr "La entrada n.º {0} de \"books\" no es un objeto"
+
+#: exclusions.py:87
+#, python-brace-format
+msgid "Entry #{0} needs a \"uuid\" or an \"id\""
+msgstr "La entrada n.º {0} necesita un \"uuid\" o un \"id\""
+
+#: exclusions.py:94
+#, python-brace-format
+msgid "Entry #{0}: unknown check(s): {1}"
+msgstr "Entrada n.º {0}: comprobación(es) desconocida(s): {1}"
+
+#: exclusions.py:114
+#, python-brace-format
+msgid "The JSON file is not valid: {0}"
+msgstr "El archivo JSON no es válido: {0}"
+
+#: exclusions.py:85
+#, python-brace-format
+msgid "Entry #{0}: \"id\" must be a number"
+msgstr "Entrada n.º {0}: \"id\" debe ser un número"
+
+#: action.py:HELP_HTML
+#, python-brace-format
+msgid "<h3>Recommended workflow</h3><ol><li><b>Run Integrity Analysis</b> and read the report.</li><li>Fix the real problems (missing files, damaged folders...). The affected books are marked so you can find them.</li><li>For the issues that are intentional (for example, empty records you keep on purpose), select those books and use <b>Exclusions &gt; Exclude selected books</b>, or use <b>Exclude every issue in the last report</b> to add them all at once.</li><li>Run the analysis again: the report now shows only the issues that still need attention.</li></ol><h3>Menu options</h3><p><b>Run Integrity Analysis</b>: scans every book of the current library. The progress window lets you cancel; in that case the report is partial.</p><p><b>View Last Integrity Report</b>: shows the last report again, grouped by book. Each issue shows its check type in brackets: [no_formats], [formats], [folder], [opf], [cover] or [io].</p><p><b>Export Report to .txt</b>: saves the report to a text file.</p><p><b>Mark problematic books</b>: marks the books of the last report with the text <i>{mark}</i> and shows them. You can also find them by typing <code>marked:\"={mark}\"</code> in the search bar.</p><p><b>Show marked problematic books</b>: shows only the marked books again. Clear the search bar to see the whole library.</p><p><b>Clear integrity marks</b>: removes only the marks added by this plugin.</p><h3>Exclusions submenu</h3><p><b>Exclude selected books</b>: select books first. You choose which checks to ignore for them:</p><ul><li><i>All checks</i>: the book is skipped entirely.</li><li><i>Book without formats (empty record)</i>: for records that only hold metadata.</li><li><i>Missing or empty format files</i>, <i>Missing book folder</i>, <i>Missing or empty metadata.opf</i>, <i>Missing cover.jpg</i>.</li></ul><p>If the books appear in the last report, the checks they failed are already ticked.</p><p><b>Exclude every issue in the last report</b>: adds all the books of the report, each one only with the checks it failed. If a new, different problem appears later in one of them, it will still be reported.</p><p><b>Remove selected books from exclusions</b>: those books will be checked again.</p><p><b>Show excluded books in the library</b>: filters the library to the excluded books.</p><p><b>Open exclusions file</b>: opens the JSON with your editor. Besides the books, you can fill the <code>excluded_tags</code> list: any book with one of those tags is skipped entirely.</p><p><b>Import / Export exclusions</b>: merge another JSON into yours, or save a copy (backup or another computer). Books are identified by their uuid, so exclusions keep working even if the id changes.</p><h3>Configure Plugin</h3><p>Turn each check on or off. If you never want empty records to be reported, uncheck <i>Report books without any format</i>. You can also turn off automatic marking and choose where the exclusions file is stored.</p>"
+msgstr "<h3>Flujo de trabajo recomendado</h3><ol><li><b>Ejecutar Análisis de Integridad</b> y leer el informe.</li><li>Corregir los problemas reales (archivos faltantes, carpetas dañadas...). Los libros afectados quedan marcados para que los encuentres.</li><li>Para los problemas que son intencionales (por ejemplo, registros vacíos que guardas a propósito), selecciona esos libros y usa <b>Exclusiones &gt; Excluir libros seleccionados</b>, o usa <b>Excluir todos los problemas del último informe</b> para añadirlos todos de una vez.</li><li>Vuelve a ejecutar el análisis: el informe ahora muestra solo los problemas que siguen requiriendo atención.</li></ol><h3>Opciones del menú</h3><p><b>Ejecutar Análisis de Integridad</b>: revisa todos los libros de la biblioteca actual. La ventana de progreso permite cancelar; en ese caso el informe es parcial.</p><p><b>Ver el último informe de integridad</b>: vuelve a mostrar el último informe, agrupado por libro. Cada problema muestra entre corchetes su tipo de comprobación: [no_formats], [formats], [folder], [opf], [cover] o [io].</p><p><b>Exportar informe a .txt</b>: guarda el informe en un archivo de texto.</p><p><b>Marcar libros problemáticos</b>: marca los libros del último informe con el texto <i>{mark}</i> y los muestra. También puedes encontrarlos escribiendo <code>marked:\"={mark}\"</code> en la barra de búsqueda.</p><p><b>Mostrar libros problemáticos marcados</b>: vuelve a mostrar solo los libros marcados. Borra la barra de búsqueda para ver toda la biblioteca.</p><p><b>Quitar marcas de integridad</b>: quita solo las marcas añadidas por este complemento.</p><h3>Submenú Exclusiones</h3><p><b>Excluir libros seleccionados</b>: primero selecciona los libros. Eliges qué comprobaciones ignorar en ellos:</p><ul><li><i>Todas las comprobaciones</i>: el libro se omite por completo.</li><li><i>Libro sin formatos (registro vacío)</i>: para registros que solo tienen metadatos.</li><li><i>Archivos de formato faltantes o vacíos</i>, <i>Carpeta del libro faltante</i>, <i>metadata.opf faltante o vacío</i>, <i>cover.jpg faltante</i>.</li></ul><p>Si los libros aparecen en el último informe, las comprobaciones que fallaron ya vienen marcadas.</p><p><b>Excluir todos los problemas del último informe</b>: añade todos los libros del informe, cada uno solo con las comprobaciones que falló. Si más adelante aparece un problema nuevo y distinto en alguno, se seguirá informando.</p><p><b>Quitar libros seleccionados de las exclusiones</b>: esos libros se vuelven a comprobar.</p><p><b>Mostrar libros excluidos en la biblioteca</b>: filtra la biblioteca para ver los libros excluidos.</p><p><b>Abrir archivo de exclusiones</b>: abre el JSON con tu editor. Además de los libros, puedes completar la lista <code>excluded_tags</code>: cualquier libro con una de esas etiquetas se omite por completo.</p><p><b>Importar / Exportar exclusiones</b>: combina otro JSON con el tuyo, o guarda una copia (respaldo u otro equipo). Los libros se identifican por su uuid, así que las exclusiones siguen funcionando aunque cambie el id.</p><h3>Configurar complemento</h3><p>Activa o desactiva cada comprobación. Si nunca quieres que se informen los registros vacíos, desmarca <i>Informar de libros sin ningún formato</i>. También puedes desactivar el marcado automático y elegir dónde se guarda el archivo de exclusiones.</p>"
+
+
+#: support.py:56
+msgid "Support development"
+msgstr "Apoyar el desarrollo"
+
+
+#: support.py:44
+msgid "About {0}"
+msgstr "Acerca de {0}"
+
+#: support.py:63
+msgid "Version: {0}"
+msgstr "Versión: {0}"
+
+#: support.py:67
+msgid "MobileRead forum"
+msgstr "Foro de MobileRead"
+
+#: support.py:82
+msgid "Scan the code with your phone to donate via Ko-fi."
+msgstr "Escaneá el código con tu teléfono para donar por Ko-fi."
+
+#: action.py:186
+msgid "Version, links and how to support the development of this plugin."
+msgstr "Versión, enlaces y cómo apoyar el desarrollo de este complemento."

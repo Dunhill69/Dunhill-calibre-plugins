@@ -1,0 +1,523 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Goodreads Series Explorer 1.12.0\n"
+"Last-Translator: Dunhill <walter.paterno@gmail.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Explores whole series and sagas from Goodreads from your library, with the data of the editions in your language."
+msgstr "Explora las sagas y series completas de Goodreads desde tu biblioteca, con los datos de las ediciones en tu idioma."
+
+msgid "Automatic: normal connection and, if Goodreads blocks it, calibre's built-in browser"
+msgstr "Automático: conexión normal y, si Goodreads bloquea, el navegador interno de calibre"
+
+msgid "Always calibre's built-in browser (slower, but gets past the blocks)"
+msgstr "Siempre el navegador interno de calibre (más lento, pero pasa los bloqueos)"
+
+msgid "Normal connection only"
+msgstr "Solo la conexión normal"
+
+msgid "Connection to Goodreads"
+msgstr "Conexión con Goodreads"
+
+msgid "Mode:"
+msgstr "Modo:"
+
+msgid "Pause between requests:"
+msgstr "Pausa entre consultas:"
+
+msgid "New pages of your books read per opening:"
+msgstr "Fichas nuevas de tus libros por apertura:"
+
+msgid "A longer pause and fewer pages per opening mean fewer Goodreads blocks, but the first load of each series takes longer. calibre's built-in browser looks more like a real browser: from calibre 9.17 on it is Camoufox, which gets past the Goodreads anti-bot checks (the first time it takes a while to open and, if it was never used, calibre downloads it); in earlier versions it is calibre's Chromium browser."
+msgstr "Más pausa y menos fichas por apertura = menos bloqueos de Goodreads, pero la primera carga de cada serie tarda más. El navegador interno de calibre se parece más a un navegador real: desde calibre 9.17 es Camoufox, que pasa los controles antirrobots de Goodreads (la primera vez tarda en abrir y, si nunca se usó, calibre lo descarga); en versiones anteriores es el navegador Chromium de calibre."
+
+msgid "Search"
+msgstr "Búsqueda"
+
+msgid "Language of the editions looked up on Goodreads: titles, covers and synopses of the books you are missing are shown in this language when such an edition exists."
+msgstr "Idioma de las ediciones que se buscan en Goodreads: los títulos, portadas y sinopsis de los libros que te faltan se muestran en este idioma cuando existe esa edición."
+
+msgid "Language of the editions:"
+msgstr "Idioma de las ediciones:"
+
+msgid "Automatically look up the edition in that language for missing books"
+msgstr "Buscar automáticamente la edición en ese idioma de los libros que faltan"
+
+msgid "If you turn it off far fewer requests are made: the missing books are shown with their original title and a button to look them up."
+msgstr "Si lo desactivás se hacen muchas menos consultas: los libros que faltan aparecen con su título original y un botón para buscarlos."
+
+msgid "(no tag)"
+msgstr "(sin etiqueta)"
+
+msgid "Tag added to the empty entries you create for the books you are missing, so you can find your wishlist in the Tag browser. Leave it empty to add no tag."
+msgstr "Etiqueta que se agrega a las entradas vacías que creás para los libros que te faltan, así encontrás tu lista de deseos en el panel de etiquetas. Dejala vacía para no agregar ninguna."
+
+msgid "Tag for empty entries:"
+msgstr "Etiqueta de las entradas vacías:"
+
+msgid "Cache"
+msgstr "Caché"
+
+msgid "days"
+msgstr "días"
+
+msgid "Series and author lists:"
+msgstr "Listas de series y autores:"
+
+msgid "Book pages, searches and editions:"
+msgstr "Fichas, búsquedas y ediciones:"
+
+msgid "Clear cache"
+msgstr "Borrar caché"
+
+msgid "Restore defaults"
+msgstr "Valores por defecto"
+
+msgid "To get"
+msgstr "A conseguir"
+
+#, python-brace-format
+msgid "Same as calibre ({0})"
+msgstr "Igual que calibre ({0})"
+
+msgid "Error"
+msgstr "Error"
+
+#, python-brace-format
+msgid "{0} saved pages were deleted."
+msgstr "Se borraron {0} páginas guardadas."
+
+#, python-brace-format
+msgid "Could not clear the cache: {0}"
+msgstr "No se pudo borrar la caché: {0}"
+
+msgid "Explore series - Goodreads"
+msgstr "Explorar serie - Goodreads"
+
+msgid "Sources"
+msgstr "Fuentes"
+
+msgid "Loading data from Goodreads..."
+msgstr "Cargando datos desde Goodreads..."
+
+msgid "Show only the ones I am missing"
+msgstr "Mostrar solo los que me faltan"
+
+msgid "Show everything from Goodreads"
+msgstr "Mostrar todo lo de Goodreads"
+
+msgid "Show diagnostics"
+msgstr "Ver diagnóstico"
+
+msgid "Close"
+msgstr "Cerrar"
+
+msgid "Unknown"
+msgstr "Desconocido"
+
+msgid "Looking for the author's books on Goodreads..."
+msgstr "Buscando los libros del autor en Goodreads..."
+
+msgid "Books by the author"
+msgstr "Libros del autor"
+
+msgid "Error while getting the data"
+msgstr "Error al obtener datos"
+
+msgid "Loading error"
+msgstr "Error de carga"
+
+msgid "Queued..."
+msgstr "En cola..."
+
+msgid "Searching..."
+msgstr "Buscando..."
+
+msgid "Goodreads limited the requests; some books were not checked. Open it again in a few minutes."
+msgstr "Goodreads limitó las consultas; algunos libros quedaron sin revisar. Volvé a abrir en unos minutos."
+
+msgid "Search diagnostics"
+msgstr "Diagnóstico de la búsqueda"
+
+msgid "This is what the plugin did. Lines with \"→\" are requests to Goodreads; lines with \"·\" came from the cache."
+msgstr "Este es el recorrido que hizo el complemento. Las líneas con \"→\" son pedidos a Goodreads; las de \"·\" salieron de la caché."
+
+msgid "Forces Goodreads to be queried again next time."
+msgstr "Fuerza a volver a consultar Goodreads la próxima vez."
+
+msgid "Copy to clipboard"
+msgstr "Copiar al portapapeles"
+
+msgid "No cover"
+msgstr "Sin portada"
+
+msgid "Done"
+msgstr "Listo"
+
+msgid "Save Goodreads ID in calibre"
+msgstr "Guardar ID de Goodreads en calibre"
+
+msgid "none of your books by this author has a series set."
+msgstr "ningún libro tuyo de este autor tiene serie cargada."
+
+#, python-brace-format
+msgid "{0} not checked"
+msgstr "{0} sin revisar"
+
+msgid "shown"
+msgstr "mostrados"
+
+msgid "hidden"
+msgstr "ocultos"
+
+msgid "Settings"
+msgstr "Configuración"
+
+msgid "The new language of the editions is used the next time you open the explorer."
+msgstr "El nuevo idioma de las ediciones se usa la próxima vez que abras el explorador."
+
+msgid "Goodreads has no series for this book; the author's books are shown."
+msgstr "Goodreads no tiene una serie para el libro consultado; se muestran los libros del autor."
+
+msgid "Save Goodreads ID"
+msgstr "Guardar ID de Goodreads"
+
+msgid "No data yet."
+msgstr "Todavía no hay datos."
+
+msgid "Box set"
+msgstr "Pack"
+
+msgid "Other edition"
+msgstr "Otra edición"
+
+msgid "Opens calibre's \"Get books\" with this title and author. What you download from there is added to the library."
+msgstr "Abre «Obtener libros» de calibre con este título y autor. Lo que descargues desde ahí se agrega a la biblioteca."
+
+msgid "Create empty entry"
+msgstr "Crear entrada vacía"
+
+msgid "Empty entry in your library (wishlist): it has no file yet."
+msgstr "Entrada vacía en tu biblioteca (lista de deseos): todavía no tiene archivo."
+
+#, python-brace-format
+msgid "Includes the books without an edition in {0}, box sets, foreign editions and companion books."
+msgstr "Incluye los libros sin edición en {0}, los packs, las ediciones extranjeras y los complementos."
+
+msgid "Book"
+msgstr "Libro consultado"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "calibre ID"
+msgstr "ID de calibre"
+
+msgid "Series: searching..."
+msgstr "Serie: buscando..."
+
+msgid "Series: not found"
+msgstr "Serie: no encontrada"
+
+msgid "Series: error while loading"
+msgstr "Serie: error al cargar"
+
+#, python-brace-format
+msgid "Series: {0}"
+msgstr "Serie: {0}"
+
+msgid "Your series in calibre"
+msgstr "Tus series en calibre"
+
+msgid "Back to the series"
+msgstr "Volver a la serie"
+
+#, python-brace-format
+msgid "{0} in your library"
+msgstr "{0} en tu biblioteca"
+
+#, python-brace-format
+msgid "{0} missing (with an edition in {1})"
+msgstr "{0} te faltan (con edición en {1})"
+
+#, python-brace-format
+msgid "{0} missing"
+msgstr "{0} te faltan"
+
+#, python-brace-format
+msgid "This book had no Goodreads ID; it was found by searching as \"{0}\" (ID {1}). If it is correct, save it so that next time the search is direct."
+msgstr "Este libro no tenía ID de Goodreads; se encontró por búsqueda como «{0}» (ID {1}). Si es correcto, guardalo para que la próxima vez la búsqueda sea directa."
+
+msgid "Check that it is the same book before accepting."
+msgstr "Revisá que sea el mismo libro antes de aceptar."
+
+msgid "This book already has a Goodreads ID; it is not replaced."
+msgstr "Este libro ya tiene un ID de Goodreads; no se reemplaza."
+
+msgid "Cancelled: Goodreads limited the requests"
+msgstr "Cancelado: Goodreads limitó las consultas"
+
+msgid "Search in stores"
+msgstr "Buscar en tiendas"
+
+msgid "Show in calibre"
+msgstr "Ver en calibre"
+
+msgid "More"
+msgstr "Más"
+
+msgid "Search in calibre"
+msgstr "Buscar en calibre"
+
+msgid "Title of a foreign edition"
+msgstr "Título de una edición extranjera"
+
+msgid "Data in English"
+msgstr "Datos en inglés"
+
+msgid "Stores"
+msgstr "Tiendas"
+
+#, python-brace-format
+msgid "The entry for \"{0}\" was created"
+msgstr "Se creó la entrada para «{0}»"
+
+msgid "Current series"
+msgstr "Serie actual"
+
+#, python-brace-format
+msgid "Author: {0}"
+msgstr "Autor: {0}"
+
+msgid "The series could not be loaded."
+msgstr "No se pudo cargar la serie."
+
+msgid "No series on Goodreads"
+msgstr "Sin serie en Goodreads"
+
+msgid "Your series in calibre:"
+msgstr "Tus series en calibre:"
+
+msgid "Your series in calibre by this author"
+msgstr "Tus series en calibre de este autor"
+
+msgid "The missing ones are worked out from your numbers; there may be more books after the last one."
+msgstr "Los faltantes se calculan con tus números; puede haber más libros después del último."
+
+#, python-brace-format
+msgid "{0} marked \"{1}\""
+msgstr "{0} marcados «{1}»"
+
+#, python-brace-format
+msgid "looking up the edition in {0} of {1} more..."
+msgstr "buscando la edición en {0} de {1} más..."
+
+#, python-brace-format
+msgid "{0} without an edition in {1}"
+msgstr "{0} sin edición en {1}"
+
+#, python-brace-format
+msgid "{0} box sets, foreign editions or companion books"
+msgstr "{0} packs, ediciones extranjeras o complementos"
+
+#, python-brace-format
+msgid "{0} not checked in {1} (use 🌐 on each one)"
+msgstr "{0} sin revisar en {1} (usá 🌐 en cada uno)"
+
+#, python-brace-format
+msgid "Goodreads ID {0} saved in \"{1}\"."
+msgstr "ID de Goodreads {0} guardado en «{1}»."
+
+#, python-brace-format
+msgid "Looks up on Goodreads the edition in {0} of this book and shows its title, cover and synopsis."
+msgstr "Busca en Goodreads la edición en {0} de este libro y muestra su título, portada y sinopsis."
+
+#, python-brace-format
+msgid "No edition in {0}"
+msgstr "Sin edición en {0}"
+
+msgid "In the library"
+msgstr "En la biblioteca"
+
+msgid "Missing"
+msgstr "Te falta"
+
+#, python-brace-format
+msgid "you have {0} of {1}"
+msgstr "tenés {0} de {1}"
+
+#, python-brace-format
+msgid "you have {0}"
+msgstr "tenés {0}"
+
+#, python-brace-format
+msgid "Could not open the settings: {0}"
+msgstr "No se pudo abrir la configuración: {0}"
+
+#, python-brace-format
+msgid "{0} box sets, editions in another script or books under another name"
+msgstr "{0} packs, ediciones en otro alfabeto o libros con otro nombre"
+
+#, python-brace-format
+msgid "Could not save the ID: {0}"
+msgstr "No se pudo guardar el ID: {0}"
+
+#, python-brace-format
+msgid "Search edition in {0}"
+msgstr "Buscar edición en {0}"
+
+#, python-brace-format
+msgid "Could not open the store search: {0}"
+msgstr "No se pudo abrir la búsqueda en tiendas: {0}"
+
+#, python-brace-format
+msgid "Could not create the entry: {0}"
+msgstr "No se pudo crear la entrada: {0}"
+
+msgid "Loading the series from Goodreads..."
+msgstr "Cargando la serie desde Goodreads..."
+
+msgid "Goodreads has no series for this book. See the view by author."
+msgstr "Goodreads no tiene una serie para este libro. Mirá la vista por autor."
+
+#, python-brace-format
+msgid "Save the Goodreads ID {0} (\"{1}\") in \"{2}\"?"
+msgstr "¿Guardar el ID de Goodreads {0} («{1}») en «{2}»?"
+
+#, python-brace-format
+msgid "tag \"{0}\""
+msgstr "etiqueta «{0}»"
+
+#, python-brace-format
+msgid "({0} missing)"
+msgstr "(faltan {0})"
+
+#, python-brace-format
+msgid "missing {0}"
+msgstr "faltan {0}"
+
+msgid "and"
+msgstr "y"
+
+#, python-brace-format
+msgid "{0} books on Goodreads"
+msgstr "{0} libros en Goodreads"
+
+msgid "Explore the whole series on Goodreads"
+msgstr "Explorar la saga completa en Goodreads"
+
+msgid "Explore the series"
+msgstr "Explorar la saga"
+
+msgid "Settings…"
+msgstr "Configuración…"
+
+msgid "Attention"
+msgstr "Atención"
+
+msgid "Go back to the library view and select a book."
+msgstr "Volvé a la vista de la biblioteca y seleccioná un libro."
+
+msgid "Select a book to explore its series."
+msgstr "Seleccioná un libro para explorar su saga o serie."
+
+#, python-brace-format
+msgid "About {0}"
+msgstr "Acerca de {0}"
+
+msgid "Scan the code with your phone to donate via Ko-fi."
+msgstr "Escanee el código con su teléfono para donar por Ko-fi."
+
+msgid "MobileRead forum"
+msgstr "Foro de MobileRead"
+
+msgid "Support development"
+msgstr "Apoyar el desarrollo"
+
+#, python-brace-format
+msgid "Version: {0}"
+msgstr "Versión: {0}"
+
+msgid "Goodreads series"
+msgstr "Serie de Goodreads"
+
+msgid "box set or collection"
+msgstr "pack o recopilación"
+
+msgid "edition split into parts"
+msgstr "edición dividida en partes"
+
+msgid "edition in another script"
+msgstr "edición en otro alfabeto"
+
+msgid "book not published yet"
+msgstr "libro todavía sin publicar"
+
+msgid "companion book without a number in the series"
+msgstr "complemento sin número en la serie"
+
+msgid "Looking for the series on Goodreads..."
+msgstr "Buscando la serie en Goodreads..."
+
+msgid "The books of the series could not be extracted."
+msgstr "No se pudieron extraer los libros de la serie."
+
+msgid "Recognizing your books..."
+msgstr "Reconociendo tus libros..."
+
+msgid "Goodreads limited the requests; some of your books may show as missing. Try again in a few minutes."
+msgstr "Goodreads limitó las consultas; algunos libros tuyos pueden figurar como faltantes. Probá de nuevo en unos minutos."
+
+msgid "Goodreads limited the requests; try in a few minutes."
+msgstr "Goodreads limitó las consultas; probá en unos minutos."
+
+msgid "The book has no author set."
+msgstr "El libro no tiene autor cargado."
+
+msgid "The author was not found on Goodreads."
+msgstr "No se encontró al autor en Goodreads."
+
+msgid "The list of the author's books could not be read."
+msgstr "No se pudo leer la lista de libros del autor."
+
+msgid "Could not be checked; try again."
+msgstr "No se pudo consultar; probá de nuevo."
+
+msgid "Wait a few minutes (sometimes up to an hour) and try again."
+msgstr "Esperá unos minutos (a veces hasta una hora) y probá de nuevo."
+
+#, python-brace-format
+msgid "Error: {0}"
+msgstr "Error: {0}"
+
+msgid "Wait a few minutes and try again."
+msgstr "Esperá unos minutos y probá de nuevo."
+
+msgid "Goodreads limited the requests. The rest is shown with the data of the series; try again in a few minutes."
+msgstr "Goodreads limitó las consultas. Lo que faltaba se muestra con los datos de la serie; probá de nuevo en unos minutos."
+
+msgid "Goodreads limited the requests because of the number of recent requests."
+msgstr "Goodreads limitó las consultas por la cantidad de pedidos recientes."
+
+#, python-brace-format
+msgid "Goodreads answered with code {0}. Try again in a few minutes."
+msgstr "Goodreads respondió con el código {0}. Probá de nuevo en unos minutos."
+
+#, python-brace-format
+msgid "Unexpected error: {0}"
+msgstr "Error inesperado: {0}"
+
+#, python-brace-format
+msgid "No edition in {0}."
+msgstr "No tiene edición en {0}."
+
+#, python-brace-format
+msgid "published as {0} (pen name or co-author)"
+msgstr "publicado como {0} (seudónimo o coautor)"
+
+#, python-brace-format
+msgid "Reading your editions ({0} of {1}): {2}"
+msgstr "Leyendo tus ediciones ({0} de {1}): {2}"

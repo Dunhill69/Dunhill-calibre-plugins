@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: EPUB to XTC Converter 2.3.0\n"
+"Last-Translator: Dunhill <walter.paterno@gmail.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Converts books to the XTC/XTCH format of the Xteink X4 e-reader, with the pages rendered by calibre"
+msgstr "Convierte libros al formato XTC/XTCH del lector Xteink X4, con las páginas dibujadas por calibre"
+
+msgid "Screen"
+msgstr "Pantalla"
+
+msgid "4 shades of gray (.xtch) - better quality"
+msgstr "4 tonos de gris (.xtch) - mejor calidad"
+
+msgid "Black and white (.xtc) - faster page turns"
+msgstr "Blanco y negro (.xtc) - cambio de página más rápido"
+
+msgid "Mode:"
+msgstr "Modo:"
+
+msgid "Resolution:"
+msgstr "Resolución:"
+
+msgid "Pixel density of the screen. Xteink X4: 480×800 at 220 ppi."
+msgstr "Densidad de píxeles de la pantalla. Xteink X4: 480×800 a 220 ppp."
+
+msgid "Density:"
+msgstr "Densidad:"
+
+msgid "Text and layout"
+msgstr "Texto y diseño"
+
+msgid "Base font size. Larger values mean bigger letters and more pages."
+msgstr "Tamaño de letra base. Valores más altos dan letras más grandes y más páginas."
+
+msgid "Font size:"
+msgstr "Tamaño de letra:"
+
+msgid "Side margins:"
+msgstr "Márgenes laterales:"
+
+msgid "Top and bottom margins:"
+msgstr "Márgenes superior e inferior:"
+
+msgid "Hyphenate words at the end of lines"
+msgstr "Dividir palabras con guion al final de las líneas"
+
+msgid "Remove spacing between paragraphs"
+msgstr "Quitar el espacio entre párrafos"
+
+msgid "Print page numbers at the bottom"
+msgstr "Mostrar el número de página abajo"
+
+msgid "How many levels of the table of contents are used as chapters on the reader."
+msgstr "Cuántos niveles del índice se usan como capítulos en el lector."
+
+msgid "Table of contents levels:"
+msgstr "Niveles del índice:"
+
+msgid "Image"
+msgstr "Imagen"
+
+msgid "Dithering (recommended for illustrated books and comics)"
+msgstr "Tramado (recomendado para libros ilustrados y cómics)"
+
+msgid "Simulates intermediate tones with dot patterns. Improves pictures but makes text slightly less sharp."
+msgstr "Simula tonos intermedios con patrones de puntos. Mejora las imágenes pero el texto queda un poco menos nítido."
+
+msgid "Black and white mode only: higher values make text darker and thicker."
+msgstr "Solo en modo blanco y negro: valores más altos dan un texto más oscuro y grueso."
+
+msgid "Black/white threshold:"
+msgstr "Umbral blanco/negro:"
+
+msgid "Scan the code with your phone to donate via Ko-fi."
+msgstr "Escanee el código con su teléfono para donar por Ko-fi."
+
+#, python-brace-format
+msgid "About {0}"
+msgstr "Acerca de {0}"
+
+msgid "MobileRead forum"
+msgstr "Foro de MobileRead"
+
+msgid "Support development"
+msgstr "Apoyar el desarrollo"
+
+#, python-brace-format
+msgid "Version: {0}"
+msgstr "Versión: {0}"
+
+msgid "Convert to XTC"
+msgstr "Convertir a XTC"
+
+msgid "Converts the selected books to the XTC format of the Xteink X4"
+msgstr "Convierte los libros seleccionados al formato XTC del Xteink X4"
+
+msgid "Convert now"
+msgstr "Convertir ahora"
+
+msgid "Configure plugin..."
+msgstr "Configurar complemento..."
+
+msgid "EPUB to XTC Converter"
+msgstr "Conversor de EPUB a XTC"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "No books selected"
+msgstr "No hay libros seleccionados"
+
+msgid "Unknown"
+msgstr "Desconocido"
+
+msgid "None of the selected books has a format that can be converted (EPUB, AZW3, MOBI...)."
+msgstr "Ninguno de los libros seleccionados tiene un formato que se pueda convertir (EPUB, AZW3, MOBI...)."
+
+#, python-brace-format
+msgid "Convert to {0}: {1}"
+msgstr "Convertir a {0}: {1}"
+
+#, python-brace-format
+msgid "Convert {0} books to {1}"
+msgstr "Convertir {0} libros a {1}"
+
+#, python-brace-format
+msgid "Converting to {0}..."
+msgstr "Convirtiendo a {0}..."
+
+msgid "The library was changed while converting. The XTC files were not added."
+msgstr "Se cambió de biblioteca durante la conversión. Los archivos XTC no se agregaron."
+
+msgid "Could not convert to XTC"
+msgstr "No se pudo convertir a XTC"
+
+#, python-brace-format
+msgid "Done: {0} ({1} pages)"
+msgstr "Listo: {0} ({1} páginas)"
+
+#, python-brace-format
+msgid "Done: {} XTC files created"
+msgstr "Listo: se crearon {} archivos XTC"
+
+#, python-brace-format
+msgid "{0} of the selected books could not be converted. Click \"Show details\" for more information."
+msgstr "No se pudieron convertir {0} de los libros seleccionados. Haga clic en «Mostrar detalles» para más información."
+
+#, python-brace-format
+msgid "{0}: no format that can be converted"
+msgstr "{0}: no tiene un formato que se pueda convertir"
+
+msgid "4 shades of gray"
+msgstr "4 tonos de gris"
+
+msgid "Black and white"
+msgstr "Blanco y negro"
+
+msgid "First page"
+msgstr "Primera página"
+
+msgid "Previous page"
+msgstr "Página anterior"
+
+msgid "Next page"
+msgstr "Página siguiente"
+
+msgid "Last page"
+msgstr "Última página"
+
+msgid "Chapters..."
+msgstr "Capítulos..."
+
+#, python-brace-format
+msgid "XTC preview: {0}"
+msgstr "Vista previa XTC: {0}"
+
+#, python-brace-format
+msgid "{0} pages · {1}×{2} · {3} · {4} chapters"
+msgstr "{0} páginas · {1}×{2} · {3} · {4} capítulos"
+
+msgid "Preview XTC"
+msgstr "Vista previa del XTC"
+
+#, python-brace-format
+msgid "\"{0}\" has no XTC or XTCH format. Convert it first."
+msgstr "«{0}» no tiene formato XTC ni XTCH. Conviértalo primero."
+
+#, python-brace-format
+msgid "The {0} file of this book could not be found."
+msgstr "No se encontró el archivo {0} de este libro."
+
+#, python-brace-format
+msgid "The {0} format of \"{1}\" is not a valid XTC file. It was probably created by version 1.x of this plugin, which only saved the text. Convert the book again."
+msgstr "El formato {0} de «{1}» no es un archivo XTC válido. Probablemente lo creó la versión 1.x de este complemento, que solo guardaba el texto. Vuelva a convertir el libro."
+
+msgid "Justify text"
+msgstr "Justificar el texto"
+
+#, python-brace-format
+msgid "{0}: {1} of {2} pages came out blank. calibre could not draw the text, usually because fonts are missing (for example when running calibre under Wine). The file was not added."
+msgstr "{0}: {1} de {2} páginas salieron en blanco. calibre no pudo dibujar el texto, normalmente porque faltan fuentes (por ejemplo, al usar calibre con Wine). No se agregó el archivo."
+
+msgid "Save 4-shade files with the .xtc extension"
+msgstr "Guardar los archivos de 4 grises con extensión .xtc"
+
+msgid "For readers that only recognize .xtc files. The CrossPoint firmware opens them correctly either way."
+msgstr "Para lectores que solo reconocen archivos .xtc. El firmware CrossPoint los abre bien de las dos formas."

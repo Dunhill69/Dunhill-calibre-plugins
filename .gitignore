@@ -1,0 +1,14 @@
+# Compilados de Python
+__pycache__/
+*.py[cod]
+
+# Zips generados por build.py
+dist/
+*.zip
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*~

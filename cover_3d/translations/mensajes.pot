@@ -1,0 +1,441 @@
+# Translations template for 3D Cover.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the 3D Cover project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 3D Cover VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-10-27 03:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: main.py:219 ui.py:13 ui.py:28 ui.py:41
+msgid "3D Cover"
+msgstr ""
+
+#: ui.py:17
+msgid "Loading library..."
+msgstr ""
+
+#: ui.py:28
+msgid "Turn flat covers into 3D books"
+msgstr ""
+
+#: ui.py:36
+msgid "Open 3D Cover"
+msgstr ""
+
+#: ui.py:38
+msgid "Show books with generated covers"
+msgstr ""
+
+#: ui.py:39
+msgid "Show books without generated covers"
+msgstr ""
+
+#: support.py:34 ui.py:41
+#, python-brace-format
+msgid "About {0}"
+msgstr ""
+
+#: ui.py:69 ui.py:77
+msgid "No books"
+msgstr ""
+
+#: ui.py:69
+msgid "No books with generated covers found."
+msgstr ""
+
+#: ui.py:77
+msgid "All books have generated covers."
+msgstr ""
+
+#: ui.py:92
+#, python-brace-format
+msgid "Loading library... {cur}/{total}"
+msgstr ""
+
+#: main.py:272
+msgid "RTL Spine"
+msgstr ""
+
+#: main.py:273
+msgid "Right-to-left spine for Persian, Arabic, Hebrew books"
+msgstr ""
+
+#: main.py:276
+msgid "Save original before replacing"
+msgstr ""
+
+#: main.py:281
+msgid "Size:"
+msgstr ""
+
+#: main.py:283
+msgid "Normal"
+msgstr ""
+
+#: main.py:283
+msgid "Large"
+msgstr ""
+
+#: main.py:283
+msgid "Extra large"
+msgstr ""
+
+#: main.py:283 main.py:338
+msgid "Original"
+msgstr ""
+
+#: main.py:288
+msgid ""
+"Width of the generated cover. Larger sizes look sharper\n"
+"in the cover grid and the book details panel."
+msgstr ""
+
+#: main.py:296
+msgid "Background:"
+msgstr ""
+
+#: main.py:298
+msgid "Cover grid color"
+msgstr ""
+
+#: main.py:299
+msgid "Book details panel color"
+msgstr ""
+
+#: main.py:300
+msgid "Custom color"
+msgstr ""
+
+#: main.py:301
+msgid "Transparent (details panel)"
+msgstr ""
+
+#: main.py:303
+msgid ""
+"calibre always stores covers as JPEG, which has no transparency.\n"
+"The background is filled with this color so it blends with the cover grid.\n"
+"\n"
+"Transparent: the cover is saved as PNG so the book details panel shows\n"
+"through it. In the cover grid the background may look dark, because\n"
+"calibre caches grid thumbnails without transparency."
+msgstr ""
+
+#: main.py:313
+msgid "Choose background color"
+msgstr ""
+
+#: main.py:322 main.py:555 main.py:592 main.py:998
+msgid "Show me"
+msgstr ""
+
+#: main.py:347
+msgid "Generated"
+msgstr ""
+
+#: main.py:370
+msgid "First Book"
+msgstr ""
+
+#: main.py:377
+msgid "Previous Book"
+msgstr ""
+
+#: main.py:394
+msgid "Next Book"
+msgstr ""
+
+#: main.py:401
+msgid "Last Book"
+msgstr ""
+
+#: main.py:411
+msgid "Generate"
+msgstr ""
+
+#: main.py:417
+msgid "Apply"
+msgstr ""
+
+#: main.py:424
+msgid "Clear"
+msgstr ""
+
+#: main.py:431
+msgid "Restore"
+msgstr ""
+
+#: main.py:438
+msgid "Generate All"
+msgstr ""
+
+#: main.py:445
+msgid "Apply All"
+msgstr ""
+
+#: main.py:452
+msgid "Clear All"
+msgstr ""
+
+#: main.py:459
+msgid "Restore All"
+msgstr ""
+
+#: main.py:467
+msgid "About"
+msgstr ""
+
+#: main.py:472
+msgid "Stop"
+msgstr ""
+
+#: main.py:478
+msgid "Cancel"
+msgstr ""
+
+#: main.py:523
+msgid "Background color"
+msgstr ""
+
+#: main.py:551
+msgid "Show All"
+msgstr ""
+
+#: main.py:570
+#, python-brace-format
+msgid "Generate {need_count} Covers"
+msgstr ""
+
+#: main.py:574
+#, python-brace-format
+msgid "Restore {restore_count} Covers"
+msgstr ""
+
+#: main.py:580
+#, python-brace-format
+msgid "Apply {count} Covers"
+msgstr ""
+
+#: main.py:587
+#, python-brace-format
+msgid "There are {unapplied} unapplied cover(s)"
+msgstr ""
+
+#: main.py:629 main.py:888
+msgid "Unknown"
+msgstr ""
+
+#: main.py:635
+#, python-brace-format
+msgid "{current} of {total} generated"
+msgstr ""
+
+#: main.py:637
+#, python-brace-format
+msgid "{current} of {total} books"
+msgstr ""
+
+#: main.py:648
+msgid "No cover"
+msgstr ""
+
+#: main.py:674
+msgid "No Cover"
+msgstr ""
+
+#: main.py:674
+msgid "This book has no cover."
+msgstr ""
+
+#: main.py:717 main.py:771 main.py:938
+msgid "Error"
+msgstr ""
+
+#: main.py:773 main.py:839 main.py:883 main.py:936 main.py:987
+msgid "Done"
+msgstr ""
+
+#: main.py:773
+msgid "Cover applied."
+msgstr ""
+
+#: main.py:785
+msgid "Nothing to apply"
+msgstr ""
+
+#: main.py:785
+msgid "No generated covers for selected books."
+msgstr ""
+
+#: main.py:837 main.py:881 main.py:985
+msgid "Stopped"
+msgstr ""
+
+#: main.py:837 main.py:839
+#, python-brace-format
+msgid "Applied {applied}/{total} covers."
+msgstr ""
+
+#: main.py:881 main.py:883
+#, python-brace-format
+msgid "Generated {count} covers."
+msgstr ""
+
+#: main.py:889
+#, python-brace-format
+msgid "Generating {current}/{total}: {title}"
+msgstr ""
+
+#: main.py:926
+msgid "No Original"
+msgstr ""
+
+#: main.py:926
+msgid "No saved original found."
+msgstr ""
+
+#: main.py:936
+msgid "Original restored."
+msgstr ""
+
+#: main.py:985 main.py:987
+#, python-brace-format
+msgid "Restored {restored}/{total} covers."
+msgstr ""
+
+#: main.py:994
+msgid "Unsaved Covers"
+msgstr ""
+
+#: main.py:995
+#, python-brace-format
+msgid ""
+"You have {count} unapplied generated cover(s).\n"
+"Discard them?"
+msgstr ""
+
+#: main.py:997
+msgid "Discard"
+msgstr ""
+
+#: support.py:65
+#, python-brace-format
+msgid "Version: {0}"
+msgstr ""
+
+#: support.py:68
+msgid "MobileRead forum"
+msgstr ""
+
+#: support.py:69
+msgid "Support development"
+msgstr ""
+
+#: support.py:83 support.py:85
+msgid "Scan the code with your phone to donate via Ko-fi."
+msgstr ""
+
+#: __init__.py
+msgid "Turns flat book covers into 3D hardcover books, with spine, page edges and shadow. Inspired by the \"Create Hardcover\" plugin by sornay."
+msgstr ""
+
+#: main.py:343
+msgid "Angle:"
+msgstr ""
+
+#: main.py:348
+msgid ""
+"How much the book is turned. 0° = seen from the front.\n"
+"Smaller angles make the cover fill more space."
+msgstr ""
+
+#: main.py:353
+msgid "Top edge:"
+msgstr ""
+
+#: main.py:360
+msgid "Shadow"
+msgstr ""
+
+#: main.py:361
+msgid "Without shadow the book fills more of the image."
+msgstr ""
+
+#: main.py:365
+msgid "Reset"
+msgstr ""
+
+#: main.py:356
+msgid ""
+"How much of the top of the pages is visible. 0 = none.\n"
+"It grows or shrinks together with the angle."
+msgstr ""
+
+#: main.py:367
+msgid "Spine:"
+msgstr ""
+
+#: main.py:369
+msgid "Black"
+msgstr ""
+
+#: main.py:370
+msgid "Cover color"
+msgstr ""
+
+#: main.py:371
+msgid ""
+"Color of the book spine. 'Cover color' takes the\n"
+"color of the cover edge on the spine side."
+msgstr ""
+
+#: main.py:377
+msgid "Binding:"
+msgstr ""
+
+#: main.py:379
+msgid "Paperback"
+msgstr ""
+
+#: main.py:380
+msgid "Hardcover"
+msgstr ""
+
+#: main.py:381
+msgid ""
+"Hardcover: the boards stick out past the pages and\n"
+"the spine is a bit thicker and rounded."
+msgstr ""
+
+#: main.py:387
+msgid "Restore the default book shape"
+msgstr ""
+
+
+msgid "⚠ Transparent background: the book details panel shows through it, but in the cover grid and the cover browser the background will look BLACK, because calibre stores their thumbnails without transparency. To avoid it, choose \"Cover grid color\"."
+msgstr ""
+
+msgid "Title and author"
+msgstr ""
+
+msgid "Stretched from cover"
+msgstr ""
+
+msgid "Color of the book spine. 'Cover color' takes the\ncolor of the cover edge on the spine side.\n'Title and author': that color, with the title and the author\nwritten along the spine.\n'Stretched from cover': the edge of the cover stretched over\nthe spine, so the picture seems to continue around the book.\nBoth look best with a thick book."
+msgstr ""
+
+msgid "Thick book"
+msgstr ""
+
+msgid "Hardcover: the boards stick out past the pages and\nthe spine is a bit thicker and rounded.\nThick book: a thick paperback with a wide spine, like a\nprinted book photographed in a shop. Try it with a small\nangle and the spine 'Title and author'."
+msgstr ""

@@ -1,0 +1,461 @@
+# Spanish translations for 3D Cover.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the 3D Cover project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 3D Cover VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-10-27 03:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: main.py:219 ui.py:13 ui.py:28 ui.py:41
+msgid "3D Cover"
+msgstr "Portada 3D"
+
+#: ui.py:17
+msgid "Loading library..."
+msgstr "Cargando biblioteca..."
+
+#: ui.py:28
+msgid "Turn flat covers into 3D books"
+msgstr "Convierte las portadas planas en libros 3D"
+
+#: ui.py:36
+msgid "Open 3D Cover"
+msgstr "Abrir Portada 3D"
+
+#: ui.py:38
+msgid "Show books with generated covers"
+msgstr "Mostrar libros con portadas generadas"
+
+#: ui.py:39
+msgid "Show books without generated covers"
+msgstr "Mostrar libros sin portadas generadas"
+
+#: support.py:34 ui.py:41
+#, python-brace-format
+msgid "About {0}"
+msgstr "Acerca de {0}"
+
+#: ui.py:69 ui.py:77
+msgid "No books"
+msgstr "Sin libros"
+
+#: ui.py:69
+msgid "No books with generated covers found."
+msgstr "No se encontraron libros con portadas generadas."
+
+#: ui.py:77
+msgid "All books have generated covers."
+msgstr "Todos los libros tienen portadas generadas."
+
+#: ui.py:92
+#, python-brace-format
+msgid "Loading library... {cur}/{total}"
+msgstr "Cargando biblioteca... {cur}/{total}"
+
+#: main.py:272
+msgid "RTL Spine"
+msgstr "Lomo RTL (der. a izq.)"
+
+#: main.py:273
+msgid "Right-to-left spine for Persian, Arabic, Hebrew books"
+msgstr "Lomo de derecha a izquierda para libros en persa, árabe o hebreo"
+
+#: main.py:276
+msgid "Save original before replacing"
+msgstr "Guardar original antes de reemplazar"
+
+#: main.py:281
+msgid "Size:"
+msgstr "Tamaño:"
+
+#: main.py:283
+msgid "Normal"
+msgstr "Normal"
+
+#: main.py:283
+msgid "Large"
+msgstr "Grande"
+
+#: main.py:283
+msgid "Extra large"
+msgstr "Muy grande"
+
+#: main.py:283 main.py:338
+msgid "Original"
+msgstr "Original"
+
+#: main.py:288
+msgid ""
+"Width of the generated cover. Larger sizes look sharper\n"
+"in the cover grid and the book details panel."
+msgstr ""
+"Ancho de la portada generada. Los tamaños grandes se ven más nítidos\n"
+"en la cuadrícula de portadas y en el panel de detalles."
+
+#: main.py:296
+msgid "Background:"
+msgstr "Fondo:"
+
+#: main.py:298
+msgid "Cover grid color"
+msgstr "Color de la cuadrícula"
+
+#: main.py:299
+msgid "Book details panel color"
+msgstr "Color del panel de detalles"
+
+#: main.py:300
+msgid "Custom color"
+msgstr "Color personalizado"
+
+#: main.py:301
+msgid "Transparent (details panel)"
+msgstr "Transparente (panel de detalles)"
+
+#: main.py:303
+msgid ""
+"calibre always stores covers as JPEG, which has no transparency.\n"
+"The background is filled with this color so it blends with the cover grid.\n"
+"\n"
+"Transparent: the cover is saved as PNG so the book details panel shows\n"
+"through it. In the cover grid the background may look dark, because\n"
+"calibre caches grid thumbnails without transparency."
+msgstr ""
+"calibre guarda siempre las portadas como JPEG, que no admite transparencia.\n"
+"El fondo se rellena con este color para que se funda con la cuadrícula de portadas.\n"
+"\n"
+"Transparente: la portada se guarda como PNG y se ve el fondo del panel de\n"
+"detalles a través de ella. En la cuadrícula el fondo puede verse oscuro,\n"
+"porque calibre guarda las miniaturas de la cuadrícula sin transparencia."
+
+#: main.py:313
+msgid "Choose background color"
+msgstr "Elegir color de fondo"
+
+#: main.py:322 main.py:555 main.py:592 main.py:998
+msgid "Show me"
+msgstr "Mostrar"
+
+#: main.py:347
+msgid "Generated"
+msgstr "Generada"
+
+#: main.py:370
+msgid "First Book"
+msgstr "Primer libro"
+
+#: main.py:377
+msgid "Previous Book"
+msgstr "Libro anterior"
+
+#: main.py:394
+msgid "Next Book"
+msgstr "Libro siguiente"
+
+#: main.py:401
+msgid "Last Book"
+msgstr "Último libro"
+
+#: main.py:411
+msgid "Generate"
+msgstr "Generar"
+
+#: main.py:417
+msgid "Apply"
+msgstr "Aplicar"
+
+#: main.py:424
+msgid "Clear"
+msgstr "Limpiar"
+
+#: main.py:431
+msgid "Restore"
+msgstr "Restaurar"
+
+#: main.py:438
+msgid "Generate All"
+msgstr "Generar todo"
+
+#: main.py:445
+msgid "Apply All"
+msgstr "Aplicar todo"
+
+#: main.py:452
+msgid "Clear All"
+msgstr "Limpiar todo"
+
+#: main.py:459
+msgid "Restore All"
+msgstr "Restaurar todo"
+
+#: main.py:467
+msgid "About"
+msgstr "Acerca de"
+
+#: main.py:472
+msgid "Stop"
+msgstr "Detener"
+
+#: main.py:478
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: main.py:523
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: main.py:551
+msgid "Show All"
+msgstr "Mostrar todo"
+
+#: main.py:570
+#, python-brace-format
+msgid "Generate {need_count} Covers"
+msgstr "Generar {need_count} portadas"
+
+#: main.py:574
+#, python-brace-format
+msgid "Restore {restore_count} Covers"
+msgstr "Restaurar {restore_count} portadas"
+
+#: main.py:580
+#, python-brace-format
+msgid "Apply {count} Covers"
+msgstr "Aplicar {count} portadas"
+
+#: main.py:587
+#, python-brace-format
+msgid "There are {unapplied} unapplied cover(s)"
+msgstr "Hay {unapplied} portada(s) sin aplicar"
+
+#: main.py:629 main.py:888
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: main.py:635
+#, python-brace-format
+msgid "{current} of {total} generated"
+msgstr "{current} de {total} generadas"
+
+#: main.py:637
+#, python-brace-format
+msgid "{current} of {total} books"
+msgstr "{current} de {total} libros"
+
+#: main.py:648
+msgid "No cover"
+msgstr "Sin portada"
+
+#: main.py:674
+msgid "No Cover"
+msgstr "Sin portada"
+
+#: main.py:674
+msgid "This book has no cover."
+msgstr "Este libro no tiene portada."
+
+#: main.py:717 main.py:771 main.py:938
+msgid "Error"
+msgstr "Error"
+
+#: main.py:773 main.py:839 main.py:883 main.py:936 main.py:987
+msgid "Done"
+msgstr "Hecho"
+
+#: main.py:773
+msgid "Cover applied."
+msgstr "Portada aplicada."
+
+#: main.py:785
+msgid "Nothing to apply"
+msgstr "Nada que aplicar"
+
+#: main.py:785
+msgid "No generated covers for selected books."
+msgstr "No se encontraron portadas generadas para los libros seleccionados."
+
+#: main.py:837 main.py:881 main.py:985
+msgid "Stopped"
+msgstr "Detenido"
+
+#: main.py:837 main.py:839
+#, python-brace-format
+msgid "Applied {applied}/{total} covers."
+msgstr "Se aplicaron {applied}/{total} portadas."
+
+#: main.py:881 main.py:883
+#, python-brace-format
+msgid "Generated {count} covers."
+msgstr "Se generaron {count} portadas."
+
+#: main.py:889
+#, python-brace-format
+msgid "Generating {current}/{total}: {title}"
+msgstr "Generando {current}/{total}: {title}"
+
+#: main.py:926
+msgid "No Original"
+msgstr "Sin original"
+
+#: main.py:926
+msgid "No saved original found."
+msgstr "No se encontró ninguna portada original guardada."
+
+#: main.py:936
+msgid "Original restored."
+msgstr "Portada original restaurada."
+
+#: main.py:985 main.py:987
+#, python-brace-format
+msgid "Restored {restored}/{total} covers."
+msgstr "Se restauraron {restored}/{total} portadas."
+
+#: main.py:994
+msgid "Unsaved Covers"
+msgstr "Portadas sin guardar"
+
+#: main.py:995
+#, python-brace-format
+msgid ""
+"You have {count} unapplied generated cover(s).\n"
+"Discard them?"
+msgstr ""
+"Tiene {count} portada(s) generada(s) sin aplicar.\n"
+"¿Desea descartarla(s)?"
+
+#: main.py:997
+msgid "Discard"
+msgstr "Descartar"
+
+#: support.py:65
+#, python-brace-format
+msgid "Version: {0}"
+msgstr "Versión: {0}"
+
+#: support.py:68
+msgid "MobileRead forum"
+msgstr "Foro de MobileRead"
+
+#: support.py:69
+msgid "Support development"
+msgstr "Apoyar el desarrollo"
+
+#: support.py:83 support.py:85
+msgid "Scan the code with your phone to donate via Ko-fi."
+msgstr "Escanee el código con su teléfono para donar por Ko-fi."
+
+#: __init__.py
+msgid "Turns flat book covers into 3D hardcover books, with spine, page edges and shadow. Inspired by the \"Create Hardcover\" plugin by sornay."
+msgstr "Convierte las portadas planas en libros de tapa dura en 3D, con lomo, cantos de páginas y sombra. Inspirado en el complemento \"Create Hardcover\" de sornay."
+
+#: main.py:343
+msgid "Angle:"
+msgstr "Ángulo:"
+
+#: main.py:348
+msgid ""
+"How much the book is turned. 0° = seen from the front.\n"
+"Smaller angles make the cover fill more space."
+msgstr ""
+"Cuánto está girado el libro. 0° = visto de frente.\n"
+"Con ángulos más chicos la portada ocupa más espacio."
+
+#: main.py:353
+msgid "Top edge:"
+msgstr "Canto superior:"
+
+#: main.py:360
+msgid "Shadow"
+msgstr "Sombra"
+
+#: main.py:361
+msgid "Without shadow the book fills more of the image."
+msgstr "Sin sombra el libro ocupa más lugar en la imagen."
+
+#: main.py:365
+msgid "Reset"
+msgstr "Restablecer"
+
+#: main.py:356
+msgid ""
+"How much of the top of the pages is visible. 0 = none.\n"
+"It grows or shrinks together with the angle."
+msgstr ""
+"Cuánto se ve la parte de arriba de las hojas. 0 = nada.\n"
+"Crece o se achica junto con el ángulo."
+
+#: main.py:367
+msgid "Spine:"
+msgstr "Lomo:"
+
+#: main.py:369
+msgid "Black"
+msgstr "Negro"
+
+#: main.py:370
+msgid "Cover color"
+msgstr "Color de la portada"
+
+#: main.py:371
+msgid ""
+"Color of the book spine. 'Cover color' takes the\n"
+"color of the cover edge on the spine side."
+msgstr ""
+"Color del lomo del libro. «Color de la portada» toma el\n"
+"color del borde de la portada del lado del lomo."
+
+#: main.py:377
+msgid "Binding:"
+msgstr "Tapa:"
+
+#: main.py:379
+msgid "Paperback"
+msgstr "Blanda"
+
+#: main.py:380
+msgid "Hardcover"
+msgstr "Dura"
+
+#: main.py:381
+msgid ""
+"Hardcover: the boards stick out past the pages and\n"
+"the spine is a bit thicker and rounded."
+msgstr ""
+"Tapa dura: los cartones sobresalen de las hojas y\n"
+"el lomo es un poco más grueso y redondeado."
+
+#: main.py:387
+msgid "Restore the default book shape"
+msgstr "Volver a la forma de libro predeterminada"
+
+
+msgid "⚠ Transparent background: the book details panel shows through it, but in the cover grid and the cover browser the background will look BLACK, because calibre stores their thumbnails without transparency. To avoid it, choose \"Cover grid color\"."
+msgstr "⚠ Fondo transparente: en el panel de detalles se ve el fondo, pero en la cuadrícula de portadas y en el explorador de portadas el fondo se verá NEGRO, porque calibre guarda sus miniaturas sin transparencia. Para evitarlo, elija «Color de la cuadrícula»."
+
+msgid "Title and author"
+msgstr "Título y autor"
+
+msgid "Stretched from cover"
+msgstr "Estirado desde la portada"
+
+msgid "Color of the book spine. 'Cover color' takes the\ncolor of the cover edge on the spine side.\n'Title and author': that color, with the title and the author\nwritten along the spine.\n'Stretched from cover': the edge of the cover stretched over\nthe spine, so the picture seems to continue around the book.\nBoth look best with a thick book."
+msgstr "Color del lomo. «Color de la portada» toma el color\ndel borde de la portada del lado del lomo.\n«Título y autor»: ese color, con el título y el autor\nescritos a lo largo del lomo.\n«Estirado desde la portada»: el borde de la portada estirado\nsobre el lomo, como si la imagen siguiera alrededor del libro.\nLas dos lucen mejor con un libro grueso."
+
+msgid "Thick book"
+msgstr "Gruesa"
+
+msgid "Hardcover: the boards stick out past the pages and\nthe spine is a bit thicker and rounded.\nThick book: a thick paperback with a wide spine, like a\nprinted book photographed in a shop. Try it with a small\nangle and the spine 'Title and author'."
+msgstr "Dura: los cartones sobresalen de las hojas y\nel lomo es un poco más grueso y redondeado.\nGruesa: un libro de tapa blanda grueso, con lomo ancho,\ncomo la foto de un libro impreso en una tienda. Pruébelo con\nun ángulo chico y el lomo «Título y autor»."

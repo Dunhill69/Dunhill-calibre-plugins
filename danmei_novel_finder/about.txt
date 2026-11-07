@@ -1,0 +1,7 @@
+<p><b>Danmei Novel Finder</b> 1.2.1 — por Dunhill</p>
+<ul>
+  <li>Catálogo integrado: explorá por orden, género o título y elegí con doble clic.</li>
+  <li>También busca desde «Conseguir libros».</li>
+  <li>Descarga la novela completa o un rango de capítulos.</li>
+  <li>EPUB directo a la biblioteca (portada, autor, sinopsis, géneros) o TXT.</li>
+</ul>
