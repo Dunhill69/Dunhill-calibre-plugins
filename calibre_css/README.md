@@ -2,6 +2,8 @@
 
 **Versión / Version:** 1.7.1 · **calibre mínimo / minimum calibre:** 7.0.0 · **Sistemas / Platforms:** Windows, macOS, Linux
 
+**Idioma de la interfaz / Interface language:** Inglés y español / English and Spanish
+
 ## Español
 
 Usa un estilo CSS distinto en el panel de detalles y en el visor para cada biblioteca.

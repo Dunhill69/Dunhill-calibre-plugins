@@ -2,6 +2,8 @@
 
 **Versión / Version:** 1.1.0 · **calibre mínimo / minimum calibre:** 6.0.0 · **Sistemas / Platforms:** Windows, macOS, Linux
 
+**Idioma de la interfaz / Interface language:** Inglés, español y 17 idiomas más / English, Spanish and 17 more languages
+
 ## Español
 
 Crea los metadatos series.json de Mylar3 y fichas visuales de la serie en los comentarios, desde ComicVine.

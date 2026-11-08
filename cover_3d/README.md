@@ -2,6 +2,8 @@
 
 A calibre plugin that turns flat book covers into 3D hardcover books, with spine, page edges and drop shadow.
 
+**Idioma de la interfaz / Interface language:** Inglés y español / English and Spanish
+
 **Credits:** inspired by the *Create Hardcover* plugin by **sornay**, which applies the Apple Books hardcover effect to covers. 3D Cover is maintained by **Dunhill**.
 
 ### Changes from Create Hardcover

@@ -2,6 +2,8 @@
 
 **Versión / Version:** 1.12.0 · **calibre mínimo / minimum calibre:** 6.0.0 · **Sistemas / Platforms:** Windows, macOS, Linux
 
+**Idioma de la interfaz / Interface language:** Inglés y español / English and Spanish
+
 ## Español
 
 Explora en Goodreads la saga o serie completa del libro seleccionado, con los datos de las ediciones en tu idioma.

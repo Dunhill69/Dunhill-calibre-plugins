@@ -2,6 +2,11 @@
 
 **Versión / Version:** 1.2.0 · **calibre mínimo / minimum calibre:** 6.0.0 · **Sistemas / Platforms:** Windows, macOS, Linux
 
+**Idioma de la interfaz / Interface language:** Solo español / Spanish only
+
+> 🇪🇸 **Nota:** este complemento está pensado para usuarios hispanohablantes y su interfaz está solo en español.  
+> **Note:** this plugin is aimed at Spanish speakers and its interface is in Spanish only.
+
 ## Español
 
 Compara la biblioteca actual con otra biblioteca o carpeta e importa los libros faltantes sin duplicados.

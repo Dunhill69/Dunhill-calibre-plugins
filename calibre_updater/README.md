@@ -2,6 +2,8 @@
 
 **Versión / Version:** 1.23.6 · **calibre mínimo / minimum calibre:** 7.0.0 · **Sistemas / Platforms:** Windows, macOS, Linux
 
+**Idioma de la interfaz / Interface language:** Inglés, español y 17 idiomas más / English, Spanish and 17 more languages
+
 ## Español
 
 Avisa cuando hay una nueva versión de calibre y la instala por el método oficial en Linux, Windows y macOS.

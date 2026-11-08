@@ -2,6 +2,8 @@
 
 **Versión / Version:** 1.3.0 · **calibre mínimo / minimum calibre:** 7.0.0 · **Sistemas / Platforms:** Windows, macOS, Linux
 
+**Idioma de la interfaz / Interface language:** Inglés y español / English and Spanish
+
 ## Español
 
 Borra de forma selectiva y segura las carpetas de archivos extra de toda la biblioteca.

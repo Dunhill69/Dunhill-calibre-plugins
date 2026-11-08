@@ -2,6 +2,8 @@
 
 **Versión / Version:** 1.6.1 · **calibre mínimo / minimum calibre:** 7.0.0 · **Sistemas / Platforms:** Windows, macOS, Linux
 
+**Idioma de la interfaz / Interface language:** Inglés y español / English and Spanish
+
 ## Español
 
 Revisa la integridad de la biblioteca de calibre y sus componentes.

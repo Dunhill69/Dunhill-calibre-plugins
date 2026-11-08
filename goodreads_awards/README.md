@@ -2,6 +2,8 @@
 
 **Versión / Version:** 1.2.0 · **calibre mínimo / minimum calibre:** 5.0.0 · **Sistemas / Platforms:** Windows, macOS, Linux
 
+**Idioma de la interfaz / Interface language:** Inglés y español / English and Spanish
+
 ## Español
 
 Busca los libros en Goodreads y guarda sus premios literarios en una columna.

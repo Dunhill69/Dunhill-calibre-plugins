@@ -2,6 +2,8 @@
 
 **Versión / Version:** 2.3.0 · **calibre mínimo / minimum calibre:** 6.0.0 · **Sistemas / Platforms:** Windows, macOS, Linux
 
+**Idioma de la interfaz / Interface language:** Inglés y español / English and Spanish
+
 ## Español
 
 Convierte libros al formato XTC/XTCH del lector Xteink X4, con las páginas generadas por calibre.
