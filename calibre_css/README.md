@@ -29,6 +29,5 @@ Uses a different CSS style for the book details panel and the viewer in each lib
 ## Enlaces / Links
 
 - **Descargar / Download:** [Releases](https://github.com/Dunhill69/Dunhill-calibre-plugins/releases?q=calibre_css) · `Calibre CSS` v1.7.1
-- **Hilo en MobileRead / MobileRead thread:** _(pendiente / pending)_
 - **Reportar un problema / Report an issue:** [Issues](https://github.com/Dunhill69/Dunhill-calibre-plugins/issues)
 - **Donar / Donate:** [Ko-fi](https://ko-fi.com/dunhill69) · [PayPal](https://paypal.me/Dunhill69)

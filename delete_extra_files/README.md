@@ -29,6 +29,6 @@ Selectively and safely deletes the extra-files folders from the whole library.
 ## Enlaces / Links
 
 - **Descargar / Download:** [Releases](https://github.com/Dunhill69/Dunhill-calibre-plugins/releases?q=delete_extra_files) · `Delete Extra Files` v1.3.0
-- **Hilo en MobileRead / MobileRead thread:** _(pendiente / pending)_
+- **Hilo en MobileRead / MobileRead thread:** [https://www.mobileread.com/forums/showthread.php?t=375086](https://www.mobileread.com/forums/showthread.php?t=375086)
 - **Reportar un problema / Report an issue:** [Issues](https://github.com/Dunhill69/Dunhill-calibre-plugins/issues)
 - **Donar / Donate:** [Ko-fi](https://ko-fi.com/dunhill69) · [PayPal](https://paypal.me/Dunhill69)

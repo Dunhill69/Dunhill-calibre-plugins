@@ -32,6 +32,5 @@ Anna's Archive metadata source: searches by title, author or ISBN and stores the
 ## Enlaces / Links
 
 - **Descargar / Download:** [Releases](https://github.com/Dunhill69/Dunhill-calibre-plugins/releases?q=annas_archive_plus) · `AnnasArchivePlus` v1.3.1
-- **Hilo en MobileRead / MobileRead thread:** _(pendiente / pending)_
 - **Reportar un problema / Report an issue:** [Issues](https://github.com/Dunhill69/Dunhill-calibre-plugins/issues)
 - **Donar / Donate:** [Ko-fi](https://ko-fi.com/dunhill69) · [PayPal](https://paypal.me/Dunhill69)

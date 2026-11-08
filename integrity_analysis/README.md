@@ -29,6 +29,6 @@ Runs integrity checks and analysis on your calibre library and its components.
 ## Enlaces / Links
 
 - **Descargar / Download:** [Releases](https://github.com/Dunhill69/Dunhill-calibre-plugins/releases?q=integrity_analysis) · `Integrity Analysis` v1.6.1
-- **Hilo en MobileRead / MobileRead thread:** _(pendiente / pending)_
+- **Hilo en MobileRead / MobileRead thread:** [https://www.mobileread.com/forums/showthread.php?t=374902](https://www.mobileread.com/forums/showthread.php?t=374902)
 - **Reportar un problema / Report an issue:** [Issues](https://github.com/Dunhill69/Dunhill-calibre-plugins/issues)
 - **Donar / Donate:** [Ko-fi](https://ko-fi.com/dunhill69) · [PayPal](https://paypal.me/Dunhill69)
