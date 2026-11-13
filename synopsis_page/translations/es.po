@@ -1,0 +1,232 @@
+# Spanish translations for Synopsis Page.
+# Copyright (C) 2026 Dunhill
+# This file is distributed under the same license as the Synopsis Page project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Synopsis Page 1.2.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 21:49-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Dunhill\n"
+"Language: es\n"
+"Language-Team: Spanish\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#, python-format
+msgid "%d item(s) were not processed. See the details."
+msgstr "%d elemento(s) no se procesaron. Mirá los detalles."
+
+msgid "About Synopsis Page"
+msgstr "Acerca de Hoja de Sinopsis"
+
+msgid "About…"
+msgstr "Acerca de…"
+
+msgid "Add it to the Table of Contents as:"
+msgstr "Agregarla al índice con el nombre:"
+
+msgid "Add synopsis page"
+msgstr "Agregar hoja de sinopsis"
+
+msgid "Adding page…"
+msgstr "Agregando hoja…"
+
+msgid ""
+"Adds a page with the book cover and its synopsis (Comments field) to EPUB "
+"and AZW3 books."
+msgstr ""
+"Agrega a los libros EPUB y AZW3 una hoja con la portada y la sinopsis (campo"
+" Comentarios)."
+
+msgid ""
+"Adds a page with the book cover and its synopsis, taken from the calibre "
+"Comments field, to EPUB and AZW3 books."
+msgstr ""
+"Agrega a los libros EPUB y AZW3 una hoja con la portada y la sinopsis, "
+"tomada del campo Comentarios de calibre."
+
+msgid "Adds a page with the cover and the synopsis to the book"
+msgstr "Agrega al libro una hoja con la portada y la sinopsis"
+
+msgid "After paragraph "
+msgstr "Después del párrafo "
+
+msgid "After the cover"
+msgstr "Después de la portada"
+
+#, python-format
+msgid "An older page was replaced in %d of them."
+msgstr "En %d de ellos se reemplazó una hoja anterior."
+
+msgid "At the end of the book"
+msgstr "Al final del libro"
+
+msgid "At the start of the book"
+msgstr "Al principio del libro"
+
+msgid "At the start of the text"
+msgstr "Al comienzo del texto"
+
+msgid "Border with shadow"
+msgstr "Borde con sombra"
+
+msgid "Bottom, after the synopsis"
+msgstr "Abajo, después de la sinopsis"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Cover"
+msgstr "Portada"
+
+msgid "Cover frame:"
+msgstr "Marco de la portada:"
+
+msgid "Cover position:"
+msgstr "Ubicación de la portada:"
+
+msgid "Cover width:"
+msgstr "Ancho de la portada:"
+
+msgid "Customize plugin…"
+msgstr "Configurar…"
+
+msgid "Do you find it useful?"
+msgstr "¿Te resulta útil?"
+
+msgid "Floating cover:"
+msgstr "Portada flotante:"
+
+msgid "Formats to modify:"
+msgstr "Formatos a modificar:"
+
+msgid "GitHub repository"
+msgstr "Repositorio en GitHub"
+
+msgid "Heading before the text:"
+msgstr "Encabezado antes del texto:"
+
+msgid ""
+"If you want to support the development of my plugins, you can buy me a "
+"coffee by scanning the code or with the buttons below. Thank you!"
+msgstr ""
+"Si querés apoyar el desarrollo de mis complementos, podés invitarme un café "
+"escaneando el código o con los botones de abajo. ¡Gracias!"
+
+msgid "Include the cover"
+msgstr "Incluir la portada"
+
+msgid "Indent paragraphs"
+msgstr "Sangría en los párrafos"
+
+msgid "Insert the page:"
+msgstr "Insertar la hoja:"
+
+msgid "Justified text"
+msgstr "Texto justificado"
+
+msgid "Left, with text wrapping around it"
+msgstr "A la izquierda, con el texto alrededor"
+
+msgid "Look"
+msgstr "Aspecto"
+
+msgid "No books selected."
+msgstr "No hay libros seleccionados."
+
+msgid "No border"
+msgstr "Sin borde"
+
+msgid "Page content"
+msgstr "Contenido de la hoja"
+
+msgid "Placement in the book"
+msgstr "Ubicación en el libro"
+
+msgid "Remove synopsis page"
+msgstr "Quitar hoja de sinopsis"
+
+#, python-format
+msgid "Remove the synopsis page from %d book(s)?"
+msgstr "¿Quitar la hoja de sinopsis de %d libro(s)?"
+
+msgid "Removing page…"
+msgstr "Quitando hoja…"
+
+msgid "Right, with text wrapping around it"
+msgstr "A la derecha, con el texto alrededor"
+
+msgid ""
+"Save an ORIGINAL_EPUB / ORIGINAL_AZW3 copy before modifying (only if the "
+"book has none)"
+msgstr ""
+"Guardar una copia ORIGINAL_EPUB / ORIGINAL_AZW3 antes de modificar (solo si "
+"el libro no tiene una)"
+
+msgid "Show the author"
+msgstr "Mostrar el autor"
+
+msgid "Show the series"
+msgstr "Mostrar la serie"
+
+msgid "Show the title"
+msgstr "Mostrar el título"
+
+msgid "Synopsis"
+msgstr "Sinopsis"
+
+msgid "Synopsis Page"
+msgstr "Hoja de Sinopsis"
+
+msgid ""
+"The synopsis is taken from the <b>Comments</b> field and the cover from the "
+"book cover in calibre."
+msgstr ""
+"La sinopsis se toma del campo <b>Comentarios</b> y la portada, de la portada"
+" del libro en calibre."
+
+#, python-format
+msgid "The synopsis page was added to %d book(s)."
+msgstr "Se agregó la hoja de sinopsis en %d libro(s)."
+
+#, python-format
+msgid "The synopsis page was removed from %d book(s)."
+msgstr "Se quitó la hoja de sinopsis de %d libro(s)."
+
+msgid "Thin border"
+msgstr "Borde fino"
+
+msgid "Top, centered"
+msgstr "Arriba, centrada"
+
+msgid ""
+"Useful when the synopsis starts with centered lines: the cover goes after "
+"them, next to the first paragraph of the text."
+msgstr ""
+"Útil si la sinopsis empieza con frases centradas: la portada queda después "
+"de ellas, junto al primer párrafo del texto."
+
+#, python-format
+msgid "Version %s · by <b>Dunhill</b>"
+msgstr "Versión %s · por <b>Dunhill</b>"
+
+msgid "it had no synopsis page"
+msgstr "no tenía hoja de sinopsis"
+
+#, python-format
+msgid "it has no %s format"
+msgstr "no tiene formato %s"
+
+msgid "it has no synopsis (empty Comments)"
+msgstr "no tiene sinopsis (Comentarios vacío)"
+
+msgid "the file is neither EPUB nor AZW3"
+msgstr "el archivo no es EPUB ni AZW3"
+

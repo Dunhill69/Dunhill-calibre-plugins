@@ -36,6 +36,7 @@ This is the official home of my plugins for [calibre](https://calibre-ebook.com)
 | [Identidad Autor](identidad_autor/README.md) | 1.1.0 | 🇪🇸 Solo español / Spanish only | Gestiona seudónimos y nombres reales de autores con lógica jerárquica. | Manages author pseudonyms and real names with hierarchical logic. |
 | [Integrity Analysis](integrity_analysis/README.md) | 1.6.1 | Inglés y español / English and Spanish | Revisa la integridad de la biblioteca de calibre y sus componentes. | Runs integrity checks and analysis on your calibre library and its components. |
 | [Mylar Series Plus](mylar_series_plus/README.md) | 1.1.0 | Inglés, español y 17 idiomas más / English, Spanish and 17 more languages | Crea los metadatos series.json de Mylar3 y fichas visuales de la serie en los comentarios, desde ComicVine. | Creates Mylar3 series.json metadata and visual series cards in the comments, from ComicVine. |
+| [Synopsis Page](synopsis_page/README.md) | 1.2.0 | Inglés y español / English and Spanish | Agrega a los EPUB y AZW3 una hoja con la portada y la sinopsis después de la portada, sin convertir el libro. | Adds a page with the cover and the synopsis after the cover of EPUB and AZW3 books, without converting them. |
 
 ## Instalación / Installation
 

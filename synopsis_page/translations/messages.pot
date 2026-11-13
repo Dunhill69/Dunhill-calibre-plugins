@@ -1,0 +1,219 @@
+# Translations template for Synopsis Page.
+# Copyright (C) 2026 Dunhill
+# This file is distributed under the same license as the Synopsis Page
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Synopsis Page 1.2.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 21:49-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#, python-format
+msgid "%d item(s) were not processed. See the details."
+msgstr ""
+
+msgid "About Synopsis Page"
+msgstr ""
+
+msgid "About…"
+msgstr ""
+
+msgid "Add it to the Table of Contents as:"
+msgstr ""
+
+msgid "Add synopsis page"
+msgstr ""
+
+msgid "Adding page…"
+msgstr ""
+
+msgid ""
+"Adds a page with the book cover and its synopsis (Comments field) to EPUB"
+" and AZW3 books."
+msgstr ""
+
+msgid ""
+"Adds a page with the book cover and its synopsis, taken from the calibre "
+"Comments field, to EPUB and AZW3 books."
+msgstr ""
+
+msgid "Adds a page with the cover and the synopsis to the book"
+msgstr ""
+
+msgid "After paragraph "
+msgstr ""
+
+msgid "After the cover"
+msgstr ""
+
+#, python-format
+msgid "An older page was replaced in %d of them."
+msgstr ""
+
+msgid "At the end of the book"
+msgstr ""
+
+msgid "At the start of the book"
+msgstr ""
+
+msgid "At the start of the text"
+msgstr ""
+
+msgid "Border with shadow"
+msgstr ""
+
+msgid "Bottom, after the synopsis"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cover"
+msgstr ""
+
+msgid "Cover frame:"
+msgstr ""
+
+msgid "Cover position:"
+msgstr ""
+
+msgid "Cover width:"
+msgstr ""
+
+msgid "Customize plugin…"
+msgstr ""
+
+msgid "Do you find it useful?"
+msgstr ""
+
+msgid "Floating cover:"
+msgstr ""
+
+msgid "Formats to modify:"
+msgstr ""
+
+msgid "GitHub repository"
+msgstr ""
+
+msgid "Heading before the text:"
+msgstr ""
+
+msgid ""
+"If you want to support the development of my plugins, you can buy me a "
+"coffee by scanning the code or with the buttons below. Thank you!"
+msgstr ""
+
+msgid "Include the cover"
+msgstr ""
+
+msgid "Indent paragraphs"
+msgstr ""
+
+msgid "Insert the page:"
+msgstr ""
+
+msgid "Justified text"
+msgstr ""
+
+msgid "Left, with text wrapping around it"
+msgstr ""
+
+msgid "Look"
+msgstr ""
+
+msgid "No books selected."
+msgstr ""
+
+msgid "No border"
+msgstr ""
+
+msgid "Page content"
+msgstr ""
+
+msgid "Placement in the book"
+msgstr ""
+
+msgid "Remove synopsis page"
+msgstr ""
+
+#, python-format
+msgid "Remove the synopsis page from %d book(s)?"
+msgstr ""
+
+msgid "Removing page…"
+msgstr ""
+
+msgid "Right, with text wrapping around it"
+msgstr ""
+
+msgid ""
+"Save an ORIGINAL_EPUB / ORIGINAL_AZW3 copy before modifying (only if the "
+"book has none)"
+msgstr ""
+
+msgid "Show the author"
+msgstr ""
+
+msgid "Show the series"
+msgstr ""
+
+msgid "Show the title"
+msgstr ""
+
+msgid "Synopsis"
+msgstr ""
+
+msgid "Synopsis Page"
+msgstr ""
+
+msgid ""
+"The synopsis is taken from the <b>Comments</b> field and the cover from "
+"the book cover in calibre."
+msgstr ""
+
+#, python-format
+msgid "The synopsis page was added to %d book(s)."
+msgstr ""
+
+#, python-format
+msgid "The synopsis page was removed from %d book(s)."
+msgstr ""
+
+msgid "Thin border"
+msgstr ""
+
+msgid "Top, centered"
+msgstr ""
+
+msgid ""
+"Useful when the synopsis starts with centered lines: the cover goes after"
+" them, next to the first paragraph of the text."
+msgstr ""
+
+#, python-format
+msgid "Version %s · by <b>Dunhill</b>"
+msgstr ""
+
+msgid "it had no synopsis page"
+msgstr ""
+
+#, python-format
+msgid "it has no %s format"
+msgstr ""
+
+msgid "it has no synopsis (empty Comments)"
+msgstr ""
+
+msgid "the file is neither EPUB nor AZW3"
+msgstr ""
+
