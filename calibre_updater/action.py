@@ -535,6 +535,14 @@ class UpdateNoticeDialog(QDialog):
         ver_lbl.setTextInteractionFlags(Qt.TextInteractionFlag.TextSelectableByMouse)
         btn_layout.addWidget(ver_lbl, 0, Qt.AlignmentFlag.AlignBottom)
         btn_layout.addStretch()
+        self.skipped = False
+        if is_beta_alert:
+            # No volver a avisar de ESTA Beta; una Beta más nueva sí se avisa
+            btn_skip = QPushButton(_("Skip this Beta"))
+            btn_skip.setToolTip(_("Don't notify about this Beta again. You will be notified when a newer Beta "
+                                  "is released."))
+            btn_skip.clicked.connect(self._skip)
+            btn_layout.addWidget(btn_skip)
         if self.can_install_beta:
             btn_upd = QPushButton(_("Install Beta"))
             btn_upd.clicked.connect(self.accept)
@@ -556,6 +564,10 @@ class UpdateNoticeDialog(QDialog):
             btn_later.clicked.connect(self.reject)
             btn_layout.addWidget(btn_later)
         layout.addLayout(btn_layout)
+
+    def _skip(self):
+        self.skipped = True
+        self.reject()
 
     def refresh_changelog(self):
         if self.showing_translation:
@@ -841,6 +853,9 @@ class CalibreUpdaterAction(InterfaceAction):
         if periodic and last and time.time() - last < REMIND_INTERVAL_S:
             log(state + ' -> %s already notified less than 24 h ago' % target)
             return
+        if is_beta and target == (prefs['skipped_beta'] or ''):
+            log(state + ' -> Beta %s was skipped by the user' % target)
+            return
         log(state + ' -> notice for %s' % target)
 
         cl_tr, cl_orig, tr_error = self._build_changelog(target, is_beta)
@@ -864,6 +879,11 @@ class CalibreUpdaterAction(InterfaceAction):
             accepted = dlg.exec() == QDialog.DialogCode.Accepted
         finally:
             self._notice_open = False
+        if is_beta_alert and getattr(dlg, 'skipped', False):
+            prefs['skipped_beta'] = version_nueva
+            _file_logger(os.path.join(self.get_download_path(), 'calibre-updater.log'))(
+                'Beta %s skipped by the user: no more notices for it' % version_nueva)
+            return
         if accepted and is_beta_alert and dlg.can_install_beta:
             self.instalar_beta(version_nueva)
         elif accepted and not is_beta_alert and not notify_only:
@@ -962,7 +982,8 @@ class CalibreUpdaterAction(InterfaceAction):
                 self._fetch_beta()
             finally:
                 QApplication.restoreOverrideCursor()
-            if self._installable_beta():
+            b = self._installable_beta()
+            if b and b != (prefs['skipped_beta'] or ''):
                 self.instalar_beta()
                 return
 

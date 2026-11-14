@@ -15,7 +15,7 @@ class CalibreUpdatePlugin(InterfaceActionBase):
     )
     supported_platforms     = ['linux', 'windows', 'osx']
     author                  = 'Dunhill'
-    version                 = (1, 23, 6)
+    version                 = (1, 23, 7)
     minimum_calibre_version = (7, 0, 0)
 
     # Path a la clase de la acción

@@ -1,6 +1,6 @@
 # Calibre Updater
 
-**Versión / Version:** 1.23.6 · **calibre mínimo / minimum calibre:** 7.0.0 · **Sistemas / Platforms:** Windows, macOS, Linux
+**Versión / Version:** 1.23.7 · **calibre mínimo / minimum calibre:** 7.0.0 · **Sistemas / Platforms:** Windows, macOS, Linux
 
 **Idioma de la interfaz / Interface language:** Inglés, español y 17 idiomas más / English, Spanish and 17 more languages
 
@@ -28,7 +28,7 @@ Notifies you of new calibre versions and installs them the official way on Linux
 
 ## Enlaces / Links
 
-- **Descargar / Download:** [Releases](https://github.com/Dunhill69/Dunhill-calibre-plugins/releases?q=calibre_updater) · `Calibre Updater` v1.23.6
+- **Descargar / Download:** [Releases](https://github.com/Dunhill69/Dunhill-calibre-plugins/releases?q=calibre_updater) · `Calibre Updater` v1.23.7
 - **Hilo en MobileRead / MobileRead thread:** [https://www.mobileread.com/forums/showthread.php?t=372468](https://www.mobileread.com/forums/showthread.php?t=372468)
 - **Reportar un problema / Report an issue:** [Issues](https://github.com/Dunhill69/Dunhill-calibre-plugins/issues)
 - **Donar / Donate:** [Ko-fi](https://ko-fi.com/dunhill69) · [PayPal](https://paypal.me/Dunhill69)

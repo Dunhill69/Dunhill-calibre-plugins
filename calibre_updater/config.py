@@ -26,6 +26,8 @@ prefs.defaults['auto_update_folders'] = []
 prefs.defaults['beta_install_folders'] = []
 # Carpeta opcional para descargar las Betas (vacía: la misma que las versiones estables)
 prefs.defaults['beta_download_dir'] = ''
+# Beta que el usuario pidió no volver a avisar (una más nueva sí se avisa)
+prefs.defaults['skipped_beta'] = ''
 # macOS: copia del ícono personalizado de calibre elegido por el usuario
 prefs.defaults['mac_custom_icon'] = ''
 
