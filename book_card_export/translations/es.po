@@ -1,0 +1,399 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: es\n"
+"Project-Id-Version: Book Card Export 1.4.1\n"
+
+msgid "Export the book details card as an image, and copy the cover and a Telegram-ready text"
+msgstr "Exporta la ficha del libro como imagen, y copia la portada y un texto listo para Telegram"
+
+msgid "Creates a card with the cover and the book details, like the one calibre shows, and lets you save it as an image. It also prepares the text to share the book in Telegram, with the cover as a photo and the details and synopsis as its caption."
+msgstr "Crea una ficha con la portada y los datos del libro, como la que muestra calibre, y permite guardarla como imagen. También prepara el texto para compartir el libro en Telegram, con la portada como foto y los datos y la sinopsis como comentario."
+
+msgid "If this plugin is useful to you, you can support its development with a donation. Scan the code or use the buttons. Thank you!"
+msgstr "Si este complemento te resulta útil, podés apoyar su desarrollo con una donación. Escaneá el código o usá los botones. ¡Gracias!"
+
+#, python-format
+msgid "About %s"
+msgstr "Acerca de %s"
+
+msgid "Version"
+msgstr "Versión"
+
+msgid "by"
+msgstr "por"
+
+msgid "Source code and other plugins on GitHub"
+msgstr "Código fuente y otros complementos en GitHub"
+
+msgid "Open book card"
+msgstr "Abrir ficha del libro"
+
+msgid "Book card"
+msgstr "Ficha del libro"
+
+msgid "Export the book card as an image, or copy it for Telegram"
+msgstr "Exportar la ficha del libro como imagen, o copiarla para Telegram"
+
+msgid "Configure..."
+msgstr "Configurar..."
+
+msgid "Help..."
+msgstr "Ayuda..."
+
+msgid "About..."
+msgstr "Acerca de..."
+
+msgid "No book selected"
+msgstr "Ningún libro seleccionado"
+
+msgid "Select a book to see its card."
+msgstr "Seleccioná un libro para ver su ficha."
+
+msgid "Unknown"
+msgstr "Desconocido"
+
+msgid "Exported from calibre"
+msgstr "Exportado desde calibre"
+
+msgid "Telegram dark: chat background"
+msgstr "Telegram oscuro: fondo del chat"
+
+msgid "Telegram dark: message"
+msgstr "Telegram oscuro: mensaje"
+
+msgid "Telegram dark: my message"
+msgstr "Telegram oscuro: mi mensaje"
+
+msgid "Telegram light: white"
+msgstr "Telegram claro: blanco"
+
+msgid "Telegram light: my message"
+msgstr "Telegram claro: mi mensaje"
+
+msgid "Sepia"
+msgstr "Sepia"
+
+msgid "Black"
+msgstr "Negro"
+
+msgid "Card image"
+msgstr "Imagen de la ficha"
+
+msgid "According to the theme"
+msgstr "Según el tema"
+
+msgid "Custom color"
+msgstr "Color personalizado"
+
+msgid "Transparent"
+msgstr "Transparente"
+
+msgid "Choose the background color"
+msgstr "Elegir el color de fondo"
+
+msgid "Quick colors"
+msgstr "Colores rápidos"
+
+msgid "Background colors that match Telegram, so the card blends into the chat"
+msgstr "Colores de fondo iguales a los de Telegram, para que la ficha se vea integrada en el chat"
+
+msgid "Background:"
+msgstr "Fondo:"
+
+msgid "Light (dark text)"
+msgstr "Claro (texto oscuro)"
+
+msgid "Dark (light text)"
+msgstr "Oscuro (texto claro)"
+
+msgid "Theme:"
+msgstr "Tema:"
+
+msgid "With a transparent background the image is always saved as PNG, because JPG has no transparency. Telegram always shows images over a white background, even when sent as a file: for Telegram, use one of the Quick colors instead."
+msgstr "Con fondo transparente la imagen se guarda siempre en PNG, porque JPG no admite transparencia. Telegram muestra siempre las imágenes sobre fondo blanco, aunque las mandes como archivo: para Telegram, usá mejor uno de los Colores rápidos."
+
+msgid "Image format:"
+msgstr "Formato de imagen:"
+
+msgid "Add \"Exported from calibre\" at the bottom"
+msgstr "Agregar \"Exportado desde calibre\" al pie"
+
+msgid "Telegram"
+msgstr "Telegram"
+
+msgid "I have Telegram Premium (photo captions up to 4096 characters instead of 1024)"
+msgstr "Tengo Telegram Premium (comentarios de foto de hasta 4096 caracteres en lugar de 1024)"
+
+msgid "Add the tags as hashtags at the end (#Thriller #Novela)"
+msgstr "Agregar las etiquetas como hashtags al final (#Thriller #Novela)"
+
+msgid "Where to show the emojis"
+msgstr "Dónde mostrar los emojis"
+
+msgid "The emoji of each field is chosen in the Fields tab, and the one of each genre in the Genres tab."
+msgstr "El emoji de cada dato se elige en la pestaña Datos, y el de cada género en la pestaña Géneros."
+
+msgid "General"
+msgstr "General"
+
+msgid "Tick the fields to include and drag them to change the order. Title, authors and synopsis are always included."
+msgstr "Marcá los datos que querés incluir y arrastralos para cambiar el orden. El título, los autores y la sinopsis se incluyen siempre."
+
+msgid "Change emoji..."
+msgstr "Cambiar emoji..."
+
+msgid "Choose the emoji of the selected field (or double click it)"
+msgstr "Elegí el emoji del dato seleccionado (o hacé doble clic sobre él)"
+
+msgid "Use the same fields as the calibre book details panel"
+msgstr "Usar los mismos datos que el panel de detalles de calibre"
+
+msgid "Reload from calibre"
+msgstr "Volver a cargar desde calibre"
+
+msgid "Fields"
+msgstr "Datos"
+
+msgid "Genres"
+msgstr "Géneros"
+
+msgid "Extra CSS for the card. Classes: .title, .author, .label, .value, .comments, .footer"
+msgstr "CSS adicional para la ficha. Clases: .title (título), .author (autor), .label (nombre del dato), .value (valor), .comments (sinopsis), .footer (pie)"
+
+msgid "Style"
+msgstr "Estilo"
+
+msgid "Background color"
+msgstr "Color de fondo"
+
+msgid "In front of each field"
+msgstr "Delante de cada dato"
+
+msgid "On each genre (tag)"
+msgstr "En cada género (etiqueta)"
+
+msgid "The emoji is used in the Telegram text."
+msgstr "El emoji se usa en el texto para Telegram."
+
+msgid "Title"
+msgstr "Título"
+
+msgid "Authors"
+msgstr "Autores"
+
+msgid "Telegram text"
+msgstr "Texto para Telegram"
+
+msgid "Copy card image"
+msgstr "Copiar imagen de la ficha"
+
+msgid "Copy the whole card as an image, to paste it in Telegram or elsewhere"
+msgstr "Copia la ficha completa como imagen, para pegarla en Telegram o donde quieras"
+
+msgid "Save image..."
+msgstr "Guardar imagen..."
+
+msgid "I have Telegram Premium"
+msgstr "Tengo Telegram Premium"
+
+msgid "1. Copy cover"
+msgstr "1. Copiar portada"
+
+msgid "Paste it in Telegram with Ctrl+V: the window to send the photo opens"
+msgstr "Pegala en Telegram con Ctrl+V: se abre la ventana para enviar la foto"
+
+msgid "2. Copy text"
+msgstr "2. Copiar texto"
+
+msgid "Paste it in the caption field of the photo"
+msgstr "Pegalo en el campo de comentario de la foto"
+
+msgid "3. Copy part 2"
+msgstr "3. Copiar parte 2"
+
+msgid "Send it as a new message after the photo"
+msgstr "Envialo como un mensaje nuevo después de la foto"
+
+msgid "Restore text"
+msgstr "Restaurar texto"
+
+msgid "Discard your changes and generate the text again"
+msgstr "Descarta tus cambios y vuelve a generar el texto"
+
+msgid "&Previous"
+msgstr "&Anterior"
+
+msgid "&Next"
+msgstr "&Siguiente"
+
+msgid "Configure"
+msgstr "Configurar"
+
+msgid "Help"
+msgstr "Ayuda"
+
+msgid "About"
+msgstr "Acerca de"
+
+msgid "Close"
+msgstr "Cerrar"
+
+#, python-format
+msgid "%(pos)d of %(total)d selected books"
+msgstr "%(pos)d de %(total)d libros seleccionados"
+
+msgid "The synopsis continues in the next message"
+msgstr "Sigue la sinopsis en el próximo mensaje"
+
+msgid "Text copied"
+msgstr "Texto copiado"
+
+msgid "Save card image"
+msgstr "Guardar imagen de la ficha"
+
+msgid "Choose the folder for the cards"
+msgstr "Elegí la carpeta para las fichas"
+
+msgid "Exporting cards..."
+msgstr "Exportando fichas..."
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Export finished"
+msgstr "Exportación terminada"
+
+#, python-format
+msgid "%(pos)d of %(total)d books in the current search"
+msgstr "%(pos)d de %(total)d libros de la búsqueda actual"
+
+#, python-format
+msgid "%(pos)d of %(total)d books in the library"
+msgstr "%(pos)d de %(total)d libros en la biblioteca"
+
+msgid "Everything fits in one message: copy the cover, paste it in Telegram (Ctrl+V) and then paste the text in the caption field."
+msgstr "Entra todo en un solo mensaje: copiá la portada, pegala en Telegram (Ctrl+V) y después pegá el texto en el campo de comentario."
+
+msgid "2. Copy part 1"
+msgstr "2. Copiar parte 1"
+
+msgid "Cover copied"
+msgstr "Portada copiada"
+
+msgid "Card copied"
+msgstr "Ficha copiada"
+
+msgid "Card preview"
+msgstr "Vista previa de la ficha"
+
+msgid "Text for Telegram"
+msgstr "Texto para Telegram"
+
+#, python-format
+msgid "Export the %d selected as images..."
+msgstr "Exportar los %d seleccionados como imágenes..."
+
+msgid "Error"
+msgstr "Error"
+
+msgid "Could not create the card."
+msgstr "No se pudo crear la ficha."
+
+msgid "characters"
+msgstr "caracteres"
+
+#, python-format
+msgid "It does not fit in the photo caption: it will be split in %d parts. Part 1 goes in the caption and part 2 as the next message."
+msgstr "No entra en el comentario de la foto: se divide en %d partes. La parte 1 va en el comentario y la parte 2 como mensaje siguiente."
+
+msgid "Could not save the image."
+msgstr "No se pudo guardar la imagen."
+
+#, python-format
+msgid "%d cards saved in:"
+msgstr "%d fichas guardadas en:"
+
+msgid "Images"
+msgstr "Imágenes"
+
+#, python-format
+msgid "Saved as %s"
+msgstr "Guardada como %s"
+
+msgid "Books and reading"
+msgstr "Libros y lectura"
+
+msgid "People"
+msgstr "Personas"
+
+msgid "Numbers and dates"
+msgstr "Números y fechas"
+
+msgid "Ratings"
+msgstr "Valoración"
+
+msgid "Places and publishing"
+msgstr "Lugares y edición"
+
+msgid "Faces"
+msgstr "Caras"
+
+msgid "Symbols and bullets"
+msgstr "Símbolos y viñetas"
+
+msgid "Choose emoji"
+msgstr "Elegir emoji"
+
+msgid "Paste or type an emoji"
+msgstr "Pegá o escribí un emoji"
+
+msgid "Use it"
+msgstr "Usarlo"
+
+msgid "Add to my emojis"
+msgstr "Agregar a mis emojis"
+
+msgid "Saves it in your own palette, so it appears in the list from now on"
+msgstr "Lo guarda en tu paleta propia, para que aparezca en la lista de ahora en adelante"
+
+msgid "No emoji"
+msgstr "Sin emoji"
+
+msgid "Other emoji:"
+msgstr "Otro emoji:"
+
+msgid "There is no image for this emoji: it may look blank here, but Telegram will show it"
+msgstr "No hay imagen para este emoji: acá puede verse en blanco, pero Telegram lo va a mostrar"
+
+msgid "My emojis"
+msgstr "Mis emojis"
+
+#, python-format
+msgid "Emoji for: <b>%s</b>"
+msgstr "Emoji para: <b>%s</b>"
+
+msgid "Right click on an emoji to remove it."
+msgstr "Clic derecho sobre un emoji para quitarlo."
+
+msgid "Double click on a genre to choose its emoji. Genres without an emoji are shown with just their name."
+msgstr "Hacé doble clic en un género para elegir su emoji. Los géneros sin emoji se muestran solo con su nombre."
+
+msgid "Search genre..."
+msgstr "Buscar género..."
+
+msgid "Remove emoji"
+msgstr "Quitar emoji"
+
+msgid "Suggest emojis"
+msgstr "Sugerir emojis"
+
+msgid "Assigns the usual emoji to the genres that have none (Fantasy 🐉, Science fiction 🚀, Romance 💕, Horror 👻...). You can change them afterwards."
+msgstr "Asigna el emoji habitual a los géneros que no tienen ninguno (Fantasía 🐉, Ciencia ficción 🚀, Romántica 💕, Terror 👻...). Después podés cambiarlos."
+
+#, python-format
+msgid "Emojis assigned to %d genres. The rest have no usual emoji: you can choose one with a double click."
+msgstr "Se asignaron emojis a %d géneros. El resto no tiene un emoji habitual: podés elegir uno con doble clic."
+
+msgid "Book Card Export - Help"
+msgstr "Book Card Export - Ayuda"

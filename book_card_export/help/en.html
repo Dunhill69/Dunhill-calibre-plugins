@@ -1,0 +1,111 @@
+<html><body>
+<h2>Book Card Export — Help</h2>
+<p>Creates a <b>book card</b> (cover, details and synopsis, like the one calibre shows) to
+<b>save it as an image</b> or <b>share it in Telegram</b>: the cover as a photo and the details and
+synopsis as its caption.</p>
+
+<h3>1. Opening the card</h3>
+<ul>
+<li>Select a book in the list and click the <b>Book card</b> button in the toolbar.</li>
+<li>With <b>one book</b> selected, <b>Previous</b> and <b>Next</b> go through all the books in the list
+(the whole library, or the search results if a search is active).</li>
+<li>With <b>several books</b> selected, you go through those only, and a button to export them all appears.</li>
+<li>Next to the buttons you see where you are, for example <i>9 of 319 books in the library</i>.</li>
+</ul>
+
+<h3>2. The card window</h3>
+<p><b>On the left, the preview</b> of the card as it will be saved:</p>
+<ul>
+<li><b>Copy card image</b>: copies the whole card as an image, to paste it anywhere (Ctrl+V).</li>
+<li><b>Save image...</b>: saves it as PNG or JPG (chosen in the configuration).</li>
+<li><b>Export the N selected as images...</b>: saves one image per book in the folder you choose.
+Only shown when the window was opened with several books selected.</li>
+</ul>
+<p><b>On the right, the text for Telegram</b>:</p>
+<ul>
+<li>It can be <b>edited</b> before copying it. <b>Restore text</b> discards your changes.</li>
+<li><code>**Two asterisks**</code> become <b>bold</b> and <code>__two underscores__</code> become
+<i>italic</i> when pasted in Telegram.</li>
+<li>The <b>counter</b> shows the number of characters: green if it fits in a photo caption, red if not.</li>
+<li><b>I have Telegram Premium</b>: a photo caption allows 1024 characters, or 4096 with Premium.</li>
+</ul>
+
+<h3>3. Sharing in Telegram, step by step</h3>
+<p><b>If the text fits</b> (green counter):</p>
+<ol>
+<li>Click <b>1. Copy cover</b>.</li>
+<li>In Telegram, paste it with <b>Ctrl+V</b>: the window to send the photo opens.</li>
+<li>Click <b>2. Copy text</b> and paste it in the <b>caption</b> field of that window. Send.</li>
+</ol>
+<p><b>If it does not fit</b> (red counter), the text is split in two parts, between paragraphs:</p>
+<ol>
+<li><b>1. Copy cover</b> and paste it in Telegram.</li>
+<li><b>2. Copy part 1</b> and paste it in the photo caption. It ends with
+<i>“⬇️ The synopsis continues in the next message”</i>. Send.</li>
+<li><b>3. Copy part 2</b> and send it as a new message.</li>
+</ol>
+<p>You can also send the whole <b>card image</b> (<b>Copy card image</b> button) instead of the cover.</p>
+
+<h3>4. Configuration</h3>
+<p>From the arrow of the button → <b>Configure...</b>, or with the <b>Configure</b> button of the window.</p>
+
+<p><b>General tab</b></p>
+<ul>
+<li><b>Background</b>: <i>According to the theme</i> (white or dark), <i>Custom color</i> (with a color picker)
+or <i>Transparent</i>. The <b>Quick colors</b> button has colors that match Telegram
+(dark and light), so the card blends into the chat.</li>
+<li><b>Theme</b>: the text color. <i>Light (dark text)</i> or <i>Dark (light text)</i>. When you choose a
+background color it is set automatically so the text can be read, and you can change it.</li>
+<li><b>Image format</b>: PNG or JPG. With a transparent background PNG is always used.</li>
+<li><b>Add “Exported from calibre” at the bottom</b>.</li>
+<li><b>I have Telegram Premium</b> and <b>Add the tags as hashtags</b> at the end of the text
+(<i>#Thriller #Novel</i>), useful to search in channels and groups.</li>
+<li><b>Where to show the emojis</b>: four independent boxes, for the <i>Telegram text</i> and the
+<i>card image</i>, in front of each field and on each genre.</li>
+</ul>
+
+<p><b>Fields tab</b></p>
+<ul>
+<li>By default the card shows the <b>same fields as calibre's book details panel</b>, in the same order.</li>
+<li>If you untick that option, you choose the fields to include and <b>drag them</b> to change the order.
+Title, authors and synopsis are always included.</li>
+<li><b>Double click</b> a field (or <b>Change emoji...</b>) to choose its emoji. Title and authors are at the top.</li>
+</ul>
+
+<p><b>Genres tab</b></p>
+<ul>
+<li>Lists the tags of your library with the number of books of each one, and has a search box.</li>
+<li><b>Double click</b> a genre to choose its emoji. <b>Remove emoji</b> deletes it.</li>
+<li><b>Suggest emojis</b> assigns the usual emoji to the genres that have none
+(Fantasy 🐉, Science fiction 🚀, Romance 💕, Horror 👻, Crime 🕵️...). You can change them afterwards.</li>
+</ul>
+
+<p><b>Style tab</b></p>
+<ul>
+<li>Extra CSS for the card image. Classes: <code>.title</code>, <code>.author</code>, <code>.label</code>
+(field name), <code>.value</code>, <code>.comments</code> (synopsis), <code>.footer</code>.</li>
+<li>Example, green italic synopsis:<br>
+<code>.comments { color: #007a00; font-style: italic; font-weight: bold; }</code></li>
+</ul>
+
+<h3>5. The emoji picker</h3>
+<ul>
+<li>It has tabs by category: books, people, numbers, ratings, places, genres, faces and symbols.</li>
+<li>If one is missing, paste it in <b>Other emoji</b> and click <b>Use it</b>, or <b>Add to my emojis</b> to keep it
+in your own palette (<i>My emojis</i> tab; right click to remove it).</li>
+<li><b>No emoji</b>: the field is shown with just its name.</li>
+</ul>
+
+<h3>6. Common problems</h3>
+<ul>
+<li><b>Emojis look blank in the text panel.</b> Your system has no color emoji font. They look fine when pasted
+in Telegram anyway. On Linux, install the font (<code>sudo apt install fonts-noto-color-emoji</code>) and restart
+calibre. In the picker, the configuration and the card image emojis are always shown, because the plugin
+includes its own images.</li>
+<li><b>The transparent background turns white.</b> Only PNG keeps transparency. <b>Telegram always shows images
+over a white background</b>, even when sent as a file: for Telegram, use one of the <b>Quick colors</b>.
+Some image viewers also paint the background white even if it is transparent.</li>
+<li><b>A field is missing or there is one too many.</b> Check the <b>Fields</b> tab, or the fields shown by calibre's
+book details panel (Preferences → Look &amp; feel → Book details).</li>
+</ul>
+</body></html>
